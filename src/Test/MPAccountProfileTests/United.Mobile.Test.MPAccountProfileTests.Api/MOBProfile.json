@@ -1,0 +1,21 @@
+{
+  "mileagePlusNumber": "AW714108",
+  "customerId": "123904958",
+  "profileId": "1",
+  "ownerName": {},
+  "travelers": [
+    {
+      "mileagePlusNumber": "AW714108",
+      "customerId": "123904958",
+      "isTSAFlagON": true
+    },
+    {
+      "mileagePlusNumber": "AW714108",
+      "customerId": "123904958",
+      "isTSAFlagON": true
+    }
+  ],
+  "isOneTimeProfileUpdateSuccess": true,
+  "isProfileOwnerTSAFlagON": true,
+  "disclaimerList": []
+}

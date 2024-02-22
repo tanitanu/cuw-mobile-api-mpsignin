@@ -1,0 +1,47 @@
+[
+  {
+    "consented_on": "",
+    "expires_in": "1",
+    "grant_type": "",
+    "id_token": "",
+    "mileagePlusNumber": "AY305211",
+    "customerId": "1",
+    "isDPThrownErrors": false
+  },
+  {
+    "consented_on": "",
+    "expires_in": "1",
+    "grant_type": "",
+    "id_token": "",
+    "mileagePlusNumber": "AY305211",
+    "customerId": "1",
+    "isDPThrownErrors": true,
+    "ErrorDescription": "UserID not found",
+    "ErrorCode": "-20",
+    "FailedAttempts": "211"
+  },
+  {
+    "consented_on": "",
+    "expires_in": "1",
+    "grant_type": "",
+    "id_token": "",
+    "mileagePlusNumber": "AY305211",
+    "customerId": "1",
+    "isDPThrownErrors": true,
+    "ErrorDescription": "UserID not found",
+    "ErrorCode": "-30",
+    "FailedAttempts": "211"
+  },
+  {
+    "consented_on": "",
+    "expires_in": "1",
+    "grant_type": "",
+    "id_token": "",
+    "mileagePlusNumber": "AY305211",
+    "customerId": "1",
+    "isDPThrownErrors": true,
+    "ErrorDescription": "UserID not found",
+    "ErrorCode": "-110",
+    "FailedAttempts": "211"
+  }
+]

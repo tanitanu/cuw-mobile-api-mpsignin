@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CssChannelProxy" Version="5.75.0" />
+    <PackageReference Include="CssSecureProfileProxy" Version="1.0.0.25" />
+    <PackageReference Include="CustomerDataCommon" Version="3.0.0.23" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="SHA3.Net" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\United.Common.Helper.Profile\United.Common.Helper.Profile.csproj" />
+    <ProjectReference Include="..\..\..\Core\United.Common.Helper\United.Common.Helper.csproj" />
+    <ProjectReference Include="..\..\..\DataAccess\United.Mobile.DataAccess.DynamoDB\United.Mobile.DataAccess.DynamoDB.csproj" />
+    <ProjectReference Include="..\..\..\DataAccess\United.Mobile.DataAccess.MerchandizeService\United.Mobile.DataAccess.MerchandizeService.csproj" />
+    <ProjectReference Include="..\..\..\DataAccess\United.Mobile.DataAccess.OnPremiseSQLSP\United.Mobile.DataAccess.OnPremiseSQLSP.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,123 @@
+{
+  "opAccountSummary": {
+    "mileagePlusNumber": "AW714108",
+    "customerId": 123904958,
+    "name": {
+      "title": "MR",
+      "first": "test",
+      "middle": "sam",
+      "last": "eqaloyalty",
+      "suffix": ""
+    },
+    "balance": "963119",
+    "balanceExpireDate": "",
+    "balanceExpireDisclaimer": "Great travel memories never expire, and now, miles don’t either. We’re excited to share that there’s no expiration date on the miles you’ve earned with us.",
+    "noMileageExpiration": "False",
+    "noMileageExpirationMessage": "Great travel memories never expire, and now, miles don’t either. We’re excited to share that there’s no expiration date on the miles you’ve earned with us.",
+    "eliteStatus": {
+      "code": "1",
+      "description": "Premier Silver",
+      "starEliteDescription": "Silver",
+      "esda": "Silver",
+      "level": 1
+    },
+    "enrollDate": "01/28/2015",
+    "lastFlightDate": "",
+    "lastActivityDate": "10/21/2021",
+    "eliteMileage": "0",
+    "eliteSegment": "0",
+    "lastExpiredMileDate": "",
+    "lastExpiredMile": 0,
+    "hasUAClubMemberShip": false,
+    "uAClubMemberShipDetails": null,
+    "isMPAccountTSAFlagON": false,
+    "tsaMessage": "",
+    "fourSegmentMinimun": "4 of 4",
+    "premierQualifyingDollars": "0",
+    "pDQchasewavier": "",
+    "pDQchasewaiverLabel": "",
+    "millionMilerIndicator": "",
+    "membershipCardBarCode": "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",
+    "membershipCardBarCodeString": "FFPC001UAAW714108    EQALOYALTY          TEST                UAS0123SLN      ^001",
+    "isCEO": false,
+    "hashValue": null,
+    "membershipCardExpirationDate": "Valid thru 01/2023",
+    "showChaseBonusTile": true,
+    "lifetimeMiles": 0,
+    "premierActivity": null,
+    "yearEndPremierActivity": null,
+    "premierActivityType": 1,
+    "premierTrackerLearnAboutHeader": "Premier status qualifications",
+    "premierTrackerLearnAboutText": "<ul><li>Premier qualifying flights:  Premier qualifying flights (PQF) are based on the number of paid flight segments traveled on United, United Express®, and select airline partners</li></ul><br/>\r\n<ul><li>Premier qualifying points: Premier qualifying points (PQP) are based on the base fare and surcharge of flight purchases, along with most seating purchases and paid upgrades.</li></ul><br/>\r\n<ul><li>A minimum of four paid flight segments on United and/or United Express® is required in order to qualify for any Premier level. Certain exemptions apply.</li></ul><br/>\r\n<ul><li>Lifetime miles are earned based on the flight distance of United and United Express®-operated flights.</li></ul><br/><div><a href=\"https&#58;//united.com/ual/en/us/fly/mileageplus/premier/qualify.html\">Full qualification terms and conditions</a></div>",
+    "premierTrackerLearnAboutTitle": "Learn about Premier status qualifications",
+    "errorPremierActivity": null,
+    "premierStatusTrackerText": "View Premier status tracker",
+    "premierStatusTrackerLink": "https://mystatus.united.com",
+    "isHideMileageBalanceExpireDate": true,
+    "isIncrementalUpgrade": false,
+    "plusPoints": null,
+    "milesNeverExpireText": "(Miles never expire)",
+    "learnMoreTitle": "Learn more about your miles",
+    "learnMoreHeader": "Learn more about your miles",
+    "birthDate": "19-12-1992",
+    "vBQPremierActivity": {
+      "vBQPremierActivityTitle": "Your Premier Activity",
+      "vBQPpremierActivityYear": "Earned in 2021",
+      "vBQPremierActivityStatus": "To reach Premier Gold",
+      "pQF": {
+        "premierQualifierTrackerTitle": "PQF",
+        "premierQualifierTrackerCurrentValue": "0",
+        "premierQualifierTrackerCurrentText": "0",
+        "premierQualifierTrackerCurrentFlexValue": null,
+        "premierQualifierTrackerCurrentFlexTitle": null,
+        "premierQualifierTrackerThresholdValue": "24",
+        "premierQualifierTrackerThresholdText": "24",
+        "premierQualifierTrackerThresholdPrefix": "of",
+        "premierQualifierTrackerCurrentChaseFlexText": null,
+        "premierQualifierTrackerCurrentChaseFlexValue": null,
+        "isWaived": false,
+        "separator": "+"
+      },
+      "pQP": {
+        "premierQualifierTrackerTitle": "PQP",
+        "premierQualifierTrackerCurrentValue": "3500",
+        "premierQualifierTrackerCurrentText": "3,500",
+        "premierQualifierTrackerCurrentFlexValue": null,
+        "premierQualifierTrackerCurrentFlexTitle": null,
+        "premierQualifierTrackerThresholdValue": "8000",
+        "premierQualifierTrackerThresholdText": "8,000",
+        "premierQualifierTrackerThresholdPrefix": "of",
+        "premierQualifierTrackerCurrentChaseFlexText": null,
+        "premierQualifierTrackerCurrentChaseFlexValue": null,
+        "isWaived": false,
+        "separator": "or"
+      },
+      "outrightPQP": {
+        "premierQualifierTrackerTitle": "PQP",
+        "premierQualifierTrackerCurrentValue": "3500",
+        "premierQualifierTrackerCurrentText": "3,500",
+        "premierQualifierTrackerCurrentFlexValue": null,
+        "premierQualifierTrackerCurrentFlexTitle": null,
+        "premierQualifierTrackerThresholdValue": "10000",
+        "premierQualifierTrackerThresholdText": "10,000",
+        "premierQualifierTrackerThresholdPrefix": "of",
+        "premierQualifierTrackerCurrentChaseFlexText": null,
+        "premierQualifierTrackerCurrentChaseFlexValue": null,
+        "isWaived": false,
+        "separator": null
+      },
+      "keyValueList": [
+        {
+          "key": "4 flight segment minimum:",
+          "value": "4 of 4"
+        },
+        {
+          "key": "View Premier status tracker",
+          "value": "https://mystatus.united.com"
+        }
+      ]
+    },
+    "vBQWelcomeModel": null,
+    "yearEndVBQPremierActivity": null
+  }
+}

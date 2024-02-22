@@ -1,0 +1,14 @@
+{
+  "EligibleTravelers": [
+    {
+      "Surname": "Sen",
+      "GivenName": "Radhika",
+      "Relationship": "Mother"
+    },
+    {
+      "Surname": "Singhal",
+      "GivenName": "Aditi",
+      "Relationship": "Sister"
+    }
+  ]
+}

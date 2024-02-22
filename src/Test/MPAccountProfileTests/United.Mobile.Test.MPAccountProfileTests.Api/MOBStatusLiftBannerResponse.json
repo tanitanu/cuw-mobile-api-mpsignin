@@ -1,0 +1,16 @@
+{
+  "Promotion": {
+    "promotionId": "1234",
+    "vanityUrl": "xyz"
+  },
+  "promotionId": "abc",
+  "mpId": "xyz",
+  "AltRefId1": "pqrs",
+  "currentLevel": "",
+  "currentLevelName": "",
+  "eligibleLevel": "",
+  "eligibleLevelName": "",
+  "eligibleLevelCode": "",
+  "description": ""
+
+}

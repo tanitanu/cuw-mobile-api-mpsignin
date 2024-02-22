@@ -1,0 +1,40 @@
+{
+  "mobEmpJAResponse": {
+    "empProfileExtended": {
+      "Email": "abx@gmail.com"
+    },
+    "empJA": {
+      "empPassRiders": [
+        { "gender": "Female" }
+      ],
+      "empBuddies": [],
+      "empJAByAirlines": [
+        { "businessPassClass": "PS0B" },
+        { "businessPassClass": "PS1B" },{}
+      ]
+      
+    }
+  },
+  "mobEmpTravelTypeResponse": {
+    "EmpTravelType": {
+      "EmpTravelTypes": [
+        {
+          "isEligible": true,
+          "numberOfTravelers": 5,
+          "isAuthorizationRequired": true,
+          "travelType": "E20"
+        },
+        {
+          "isEligible": true,
+          "numberOfTravelers": 5,
+          "isAuthorizationRequired": true,
+          "travelType": "E20"
+        }
+      ],
+      "isTermsAndConditionsAccepted": false
+    },
+    "isPayrollDeduct": true,
+    "advanceBookingDays": 4
+
+  }
+}

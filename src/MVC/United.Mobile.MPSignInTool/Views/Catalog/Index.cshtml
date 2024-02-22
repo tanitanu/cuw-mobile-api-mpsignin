@@ -1,0 +1,19 @@
+﻿@model United.Mobile.MPSignInTool.Domain.Models.Catalog.CatalogReport;
+@{
+    ViewData["Title"] = "Catalog";
+}
+
+<div>
+    <div class="row">
+        <Partial name="_CatalogView.cshtml" model=Model.DevReport>
+    </div>
+    <div class="row">
+        <Partial name="_CatalogView.cshtml" model=Model.QAReport>
+    </div>
+    <div class="row">
+        <Partial name="_CatalogView.cshtml" model=Model.StageReport>
+    </div>
+    <div class="row">
+        <Partial name="_CatalogView.cshtml" model=Model.ProdReport>
+    </div>
+</div>

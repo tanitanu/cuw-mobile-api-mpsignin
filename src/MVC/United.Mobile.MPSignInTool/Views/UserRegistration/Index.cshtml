@@ -1,0 +1,102 @@
+﻿@model RegistrationForm;
+
+@{
+    ViewData["Title"] = "Registration";
+}
+<div class="container">
+    <h3>User Registration</h3>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-primary" role="alert">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    
+
+    @if (Model.RequestType == "Search")
+    {
+        <form method="post" asp-action="Search" asp-controller="UserRegistration">
+            <div class="form-group">
+                <label for="InputVendorId">UserId</label>
+                <input asp-for="UserId" type="text" class="form-control" id="userId" placeholder="Enter UserId">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    }
+
+    @if (Model.RequestType == "Add" || Model.RequestType == "Update")
+    {
+        <form method="post">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="InputName">Name</label>
+                        <input asp-for="Name" type="text" class="form-control" id="name" placeholder="Enter Name">
+                        @if (Model.RequestType == "Add")
+                        {
+                            <span style="color:red;" asp-validation-for="Name"></span>
+                        }
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="InputUserId">UserId</label>
+                        <input asp-for="UserId" type="text" class="form-control" id="userId" placeholder="Enter UserId" readonly="@(Model.RequestType == "Update" ? "readonly" : null)">
+                        @if (Model.RequestType == "Add")
+                        {
+                            <span style="color:red;" asp-validation-for="UserId"></span>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="InputEmail">Email</label>
+                        <input asp-for="Email" type="email" class="form-control" id="emailId" placeholder="Enter Email">
+                        @if (Model.RequestType == "Add")
+                        {
+                            <span style="color:red;" asp-validation-for="Email"></span>
+                        }
+                    </div>
+                </div>
+                <div class="col-6">
+                    <label for="InputUserType">Account Type</label>
+                    <div class="select">
+                        <select class="form-select" asp-for="UserType" asp-items="@Model.UserTypes">
+                        </select>
+                        @if (Model.RequestType == "Add")
+                        {
+                            <span style="color:red;" asp-validation-for="UserType"></span>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="InputPassword">Password</label>
+                        <input asp-for="Password" type="password" class="form-control" id="password" placeholder="Enter Password">
+                        @if (Model.RequestType == "Add")
+                        {
+                            <span style="color:red;" asp-validation-for="Password"></span>
+                        }
+                    </div>
+                </div>
+            </div>
+            @if (Model.RequestType == "Add")
+            {
+                <button type="submit" class="btn btn-primary" asp-action="Add" asp-controller="UserRegistration">Register</button>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary" asp-action="Update" asp-controller="UserRegistration">Update</button>
+
+            }
+            <button type="submit" class="btn btn-primary" asp-action="Index" asp-controller="UserRegistration">Go Back</button>
+
+        </form>
+    }
+
+</div>

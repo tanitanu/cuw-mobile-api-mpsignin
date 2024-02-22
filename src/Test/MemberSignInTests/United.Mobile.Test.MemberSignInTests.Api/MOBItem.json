@@ -1,0 +1,81 @@
+[
+  {
+    "items": [
+      {
+        "id": "20000",
+        "currentValue": "https://smartphone-dev.united.com/RESTeResStage/api",
+        "saveToPersist": false
+      },
+      {
+        "id": "20001",
+        "currentValue": "93",
+        "saveToPersist": false
+      },
+      {
+        "id": "20002",
+        "currentValue": "29",
+        "saveToPersist": false
+      },
+      {
+        "id": "20004",
+        "currentValue": "https://checkinstage.united.com/CheckInWFDev/Start/",
+        "saveToPersist": false
+      },
+      {
+        "id": "20005",
+        "currentValue": "POP",
+        "saveToPersist": false
+      },
+      {
+        "id": "20006",
+        "currentValue": "https://api.twitter.com/1.1/statuses/user_timeline/united.json",
+        "saveToPersist": false
+      },
+      {
+        "id": "20007",
+        "currentValue": "https://smartphone.united.com/ECWRESTServices/checkin/",
+        "saveToPersist": false
+      },
+      {
+        "id": "20008",
+        "currentValue": "[{\"Coach\":\"Economy\"},{\"Business\":\"Business/BusinessFirst\"},{\"First\":\"First/Global First\"}]",
+        "saveToPersist": false
+      },
+      {
+        "id": "20009",
+        "currentValue": "ACCESSCODE",
+        "saveToPersist": false
+      },
+      {
+        "id": "20010",
+        "currentValue": "59|59",
+        "saveToPersist": false
+      },
+      {
+        "id": "20011",
+        "currentValue": "1",
+        "saveToPersist": false
+      },
+      {
+        "id": "20012",
+        "currentValue": "0",
+        "saveToPersist": false
+      },
+      {
+        "id": "20013",
+        "currentValue": "",
+        "saveToPersist": false
+      },
+      {
+        "id": "20014",
+        "currentValue": "https://webservices.united.com/ECWRestServices/passbookservice.svc",
+        "saveToPersist": false
+      },
+      {
+        "id": "20015",
+        "currentValue": "https://smartphone-dev.united.com/restdev/api",
+        "saveToPersist": false
+      }
+    ]
+  }
+]

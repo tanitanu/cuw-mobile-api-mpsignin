@@ -1,0 +1,984 @@
+{
+  "shareReservationInfo": null,
+  "showJoinOneClickEnrollment": false,
+  "deviceId": "",
+  "specialNeeds": {
+    "specialNeedsAlertMessages": null,
+    "mealUnavailable": "Special meals are not available.",
+    "accommodationsUnavailable": "Special travel needs are not available.",
+    "highTouchItems": [],
+    "specialMeals": null,
+    "specialMealsMessages": [
+      {
+        "id": "",
+        "currentValue": "We're unable to book a  meal on this route.",
+        "saveToPersist": false
+      }
+    ],
+    "specialRequests": [
+      {
+        "displaySequence": null,
+        "value": "19",
+        "code": "BSCT",
+        "displayDescription": "Bassinet/cot",
+        "registerServiceDescription": "Bassinet/cot",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": null,
+        "subOptionHeader": null,
+        "isDisabled": false,
+        "informationLink": null
+      },
+      {
+        "displaySequence": null,
+        "value": "6",
+        "code": "BLND",
+        "displayDescription": "Blind",
+        "registerServiceDescription": "Blind",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": null,
+        "subOptionHeader": null,
+        "isDisabled": false,
+        "informationLink": null
+      },
+      {
+        "displaySequence": null,
+        "value": "7",
+        "code": "DEAF",
+        "displayDescription": "Deaf",
+        "registerServiceDescription": "Deaf",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": null,
+        "subOptionHeader": null,
+        "isDisabled": false,
+        "informationLink": null
+      },
+      {
+        "displaySequence": null,
+        "value": "24",
+        "code": "SVAN",
+        "displayDescription": "Task-trained service dog",
+        "registerServiceDescription": "Task-trained service dog",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": null,
+        "subOptionHeader": null,
+        "isDisabled": false,
+        "informationLink": null
+      },
+      {
+        "displaySequence": null,
+        "value": "",
+        "code": "Bringing a wheelchair",
+        "displayDescription": "Bringing a wheelchair",
+        "registerServiceDescription": "Bringing a wheelchair",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": [
+          {
+            "displaySequence": null,
+            "value": "16",
+            "code": "WCBD",
+            "displayDescription": "Dry cell battery",
+            "registerServiceDescription": "Dry cell battery",
+            "type": "SpecialRequest",
+            "messages": null,
+            "subOptions": null,
+            "subOptionHeader": null,
+            "isDisabled": false,
+            "informationLink": null
+          },
+          {
+            "displaySequence": null,
+            "value": "17",
+            "code": "WCBW",
+            "displayDescription": "Wet cell battery",
+            "registerServiceDescription": "Wet cell battery",
+            "type": "SpecialRequest",
+            "messages": null,
+            "subOptions": null,
+            "subOptionHeader": null,
+            "isDisabled": false,
+            "informationLink": null
+          },
+          {
+            "displaySequence": null,
+            "value": "22",
+            "code": "WCLB",
+            "displayDescription": "Lithium-ion battery",
+            "registerServiceDescription": "Lithium-ion battery",
+            "type": "SpecialRequest",
+            "messages": null,
+            "subOptions": null,
+            "subOptionHeader": null,
+            "isDisabled": false,
+            "informationLink": null
+          },
+          {
+            "displaySequence": null,
+            "value": "18",
+            "code": "WCMP",
+            "displayDescription": "Manual power",
+            "registerServiceDescription": "Manual power",
+            "type": "SpecialRequest",
+            "messages": null,
+            "subOptions": null,
+            "subOptionHeader": null,
+            "isDisabled": false,
+            "informationLink": null
+          }
+        ],
+        "subOptionHeader": "Select power type",
+        "isDisabled": false,
+        "informationLink": null
+      },
+      {
+        "displaySequence": null,
+        "value": "4",
+        "code": "WCHR",
+        "displayDescription": "Cannot walk long distance",
+        "registerServiceDescription": "Cannot walk long distance",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": null,
+        "subOptionHeader": null,
+        "isDisabled": false,
+        "informationLink": null
+      },
+      {
+        "displaySequence": null,
+        "value": "3",
+        "code": "WCHS",
+        "displayDescription": "Cannot ascend or descend stairs",
+        "registerServiceDescription": "Cannot ascend or descend stairs",
+        "type": "SpecialRequest",
+        "messages": null,
+        "subOptions": null,
+        "subOptionHeader": null,
+        "isDisabled": false,
+        "informationLink": null
+      }
+    ],
+    "specialRequestsMessages": null,
+    "serviceAnimals": null,
+    "serviceAnimalsMessages": null
+  },
+  "sessionId": "76ADCFE0D2B1486CA3991496E4EE0498",
+  "flow": "VIEWRES",
+  "rewardPrograms": [
+    {
+      "type": "UA",
+      "programID": "7",
+      "description": "United MileagePlus"
+    },
+    {
+      "type": "A3",
+      "programID": "113",
+      "description": "Aegean Mile+Bonus"
+    },
+    {
+      "type": "EI",
+      "programID": "120",
+      "description": "Aer Lingus AerClub"
+    },
+    {
+      "type": "AC",
+      "programID": "8",
+      "description": "Air Canada Aeroplan"
+    },
+    {
+      "type": "CA",
+      "programID": "9",
+      "description": "Air China PhoenixMiles"
+    },
+    {
+      "type": "AI",
+      "programID": "134",
+      "description": "Air India Flying Returns"
+    },
+    {
+      "type": "NZ",
+      "programID": "103",
+      "description": "Air New Zealand Airpoints"
+    },
+    {
+      "type": "NH",
+      "programID": "29",
+      "description": "ANA Mileage Club"
+    },
+    {
+      "type": "OZ",
+      "programID": "104",
+      "description": "Asiana Club"
+    },
+    {
+      "type": "OS",
+      "programID": "105",
+      "description": "Austrian Miles & More"
+    },
+    {
+      "type": "AV",
+      "programID": "115",
+      "description": "Avianca LifeMiles"
+    },
+    {
+      "type": "AD",
+      "programID": "133",
+      "description": "Azul TudoAzul"
+    },
+    {
+      "type": "SN",
+      "programID": "123",
+      "description": "Brussels Airlines Miles & More"
+    },
+    {
+      "type": "CM",
+      "programID": "135",
+      "description": "Copa Airlines ConnectMiles"
+    },
+    {
+      "type": "OU",
+      "programID": "124",
+      "description": "Croatian Miles & More"
+    },
+    {
+      "type": "MS",
+      "programID": "106",
+      "description": "EGYPTAIR Plus"
+    },
+    {
+      "type": "EK",
+      "programID": "2",
+      "description": "Emirates Skywards"
+    },
+    {
+      "type": "ET",
+      "programID": "130",
+      "description": "Ethiopian Airlines ShebaMiles"
+    },
+    {
+      "type": "BR",
+      "programID": "3",
+      "description": "EVA Air Infinity MileageLands"
+    },
+    {
+      "type": "HO",
+      "programID": "137",
+      "description": "Juneyao Air Club"
+    },
+    {
+      "type": "LO",
+      "programID": "107",
+      "description": "LOT Polish Airlines Miles & More"
+    },
+    {
+      "type": "LH",
+      "programID": "26",
+      "description": "Lufthansa Miles & More"
+    },
+    {
+      "type": "SK",
+      "programID": "33",
+      "description": "SAS EuroBonus"
+    },
+    {
+      "type": "ZH",
+      "programID": "131",
+      "description": "Shenzhen PhoenixMiles"
+    },
+    {
+      "type": "SQ",
+      "programID": "109",
+      "description": "Singapore Airlines KrisFlyer"
+    },
+    {
+      "type": "SA",
+      "programID": "110",
+      "description": "South African Airways Voyager"
+    },
+    {
+      "type": "LX",
+      "programID": "126",
+      "description": "SWISS Miles & More"
+    },
+    {
+      "type": "TP",
+      "programID": "34",
+      "description": "TAP Miles & Go"
+    },
+    {
+      "type": "TG",
+      "programID": "35",
+      "description": "THAI Royal Orchid Plus"
+    },
+    {
+      "type": "TK",
+      "programID": "111",
+      "description": "Turkish Airlines Miles&Smiles"
+    },
+    {
+      "type": "UK",
+      "programID": "138",
+      "description": "Vistara Club Vistara"
+    },
+    {
+      "type": "VA",
+      "programID": "139",
+      "description": "Virgin Australia Velocity"
+    }
+  ],
+  "recordLocator": "ELR9RS",
+  "lastName": "PATIL",
+  "uaRecordLocator": "",
+  "pnr": {
+    "hasJSXSegment": false,
+    "jsxAlertMessageForChangeSeat": null,
+    "invokeTRCEligiblity": false,
+    "isMilesAndMoney": false,
+    "isATREEligible": true,
+    "isChangeEligible": true,
+    "isTicketedByUA": false,
+    "isSCChangeEligible": false,
+    "isSCRefundEligible": false,
+    "isSCBulkGroupPWC": false,
+    "scheduleChangeInfo": null,
+    "irropsChangeInfo": null,
+    "advisoryInfo": null,
+    "consolidateScheduleChangeMessage": false,
+    "isCorporateBooking": false,
+    "corporateVendorName": "",
+    "isPolicyExceptionAlert": false,
+    "isBEChangeEligible": false,
+    "isCheckinEligible": false,
+    "isAgencyBooking": false,
+    "agencyName": null,
+    "shouldDisplayUpgradeCabin": true,
+    "earnedMilesInfo": [
+      {
+        "id": "earnedmilesalertheader",
+        "currentValue": "MileagePlus® earning information",
+        "saveToPersist": false
+      },
+      {
+        "id": "earnedmilesalerttext",
+        "currentValue": "The accrual of United MileagePlus® miles, Premier® qualifying flights (PQF) and Premier qualifying points (PQP), and other benefits of MileagePlus associated with air travel are subject to the rules of the MileagePlus program. Accruals, in some cases, may differ from that shown above. \r\n\r\nYou can earn up to 75,000 award miles per ticket. The 75,000 award miles cap may be applied to your posted flight activity in an order different than shown above.",
+        "saveToPersist": false
+      }
+    ],
+    "shuttleOfferInformation": null,
+    "futureflightcredit": null,
+    "umnr": null,
+    "infantInLaps": [],
+    "mealAccommodationAdvisory": "",
+    "mealAccommodationAdvisoryHeader": "",
+    "isUnaccompaniedMinor": false,
+    "isETicketed": true,
+    "inCabinPetInfo": null,
+    "isPetAvailable": false,
+    "shouldDisplayEmailReceipt": true,
+    "isCanceledWithFutureFlightCredit": false,
+    "showOverride24HrFlex": false,
+    "showOverrideATREEligible": false,
+    "isInflightMealsOfferEligible": true,
+    "isEnableEditTraveler": true,
+    "isShuttleOfferEligible": false,
+    "journeyType": "",
+    "elfLimitations": null,
+    "isELF": false,
+    "lmxtravelers": null,
+    "sessionId": "76ADCFE0D2B1486CA3991496E4EE0498",
+    "recordLocator": "ELR9RS",
+    "uaRecordLocator": "",
+    "coRecordLocator": "",
+    "pnrOwner": "",
+    "oaRecordLocators": [],
+    "oaRecordLocatorMessageTitle": "",
+    "oaRecordLocatorMessage": "",
+    "dateCreated": "12/12/2023 5:18 PM",
+    "description": "",
+    "isActive": true,
+    "ticketType": "",
+    "numberOfPassengers": "1",
+    "trips": [
+      {
+        "index": 1,
+        "cabinType": "",
+        "origin": "IAH",
+        "originName": "Houston, TX (IAH)",
+        "destination": "ORD",
+        "destinationName": "Chicago, IL (ORD)",
+        "stops": "",
+        "journeyTime": "",
+        "departureTime": "12/31/2023 05:00 AM",
+        "departureTimeSort": "",
+        "arrivalTime": "12/31/2023 07:41 AM",
+        "departureTimeGMT": "",
+        "arrivalTimeGMT": "",
+        "arrivalOffset": "",
+        "serviceMap": "",
+        "journeyMileage": "",
+        "flightNumber": null,
+        "destinationImage": "https://media.united.com/assets/m/7fd760ac30b2835a/original/DEST_ORD_1_1x1.png",
+        "destinationImageDesc": "An image showing the city of Chicago, Illinois.",
+        "tripNumber": "1",
+        "zeros": [ "0" ],
+        "destinationImageOnTop": {
+          "imageUrl": "https://media.united.com/assets/m/20f197e3551b947d/original/DEST_ORD_1_1x2.png",
+          "imageDesc": "An image showing the city of Chicago, Illinois.",
+          "nickName": null
+        }
+      }
+    ],
+    "passengers": [
+      {
+        "earnedMiles": {
+          "earnedMilesType": null,
+          "pqfTotalFormated": "",
+          "pqpTotalFormated": "",
+          "pqfTotalShort": "",
+          "pqpTotalShort": "",
+          "firstName": "RAMESH",
+          "lastName": "PATIL",
+          "awardMileTotalFormated": "",
+          "pqmTotalFormated": "",
+          "pqsTotalFormated": "",
+          "pqdTotalFormated": "",
+          "awardMileTotalShort": "",
+          "pqmTotalShort": "",
+          "pqsTotalShort": "",
+          "pqdTotalShort": "",
+          "isMember": false,
+          "memberLevelText": "",
+          "nonMemberMessage": "",
+          "rowData": [
+            {
+              "pqfText": "",
+              "pqpText": "",
+              "tripText": "",
+              "segmentText": "",
+              "awardMileText": "",
+              "pqmText": "",
+              "pqsText": "",
+              "pqdText": "",
+              "isElligibleForEarnings": false,
+              "ineligibleEarningsText": "Could not retrieve any earning data.",
+              "secondLineText": ""
+            }
+          ],
+          "hasInelligibleSegment": true
+        },
+        "contact": {
+          "emails": [
+            {
+              "key": "2",
+              "channel": null,
+              "emailAddress": "RAMESH.TAKE@UNITED.COM",
+              "isPrivate": false,
+              "isDefault": false,
+              "isPrimary": false,
+              "isDayOfTravel": false
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "areaNumber": "",
+              "attention": "",
+              "channelCode": "",
+              "channelCodeDescription": "",
+              "channelTypeCode": "",
+              "channelTypeDescription": "",
+              "channelTypeSeqNumber": 0,
+              "countryCode": "",
+              "countryNumber": "",
+              "countryPhoneNumber": "",
+              "customerId": 0,
+              "description": "",
+              "discontinuedDate": "",
+              "effectiveDate": "",
+              "extensionNumber": "",
+              "isPrimary": false,
+              "isPrivate": false,
+              "isProfileOwner": false,
+              "key": "3",
+              "languageCode": "",
+              "mileagePlusId": "",
+              "pagerPinNumber": "",
+              "phoneNumber": "8378848580",
+              "sharesCountryCode": "",
+              "wrongPhoneDate": "",
+              "deviceTypeCode": "",
+              "deviceTypeDescription": "",
+              "isDayOfTravel": false,
+              "isSMSEnabled": false
+            }
+          ]
+        },
+        "birthDate": "10/29/1996 12:00:00 AM",
+        "travelerTypeCode": "ADT",
+        "pricingPaxType": "",
+        "ctnDisplaySequence": null,
+        "ssrDisplaySequence": "",
+        "selectedSpecialNeeds": [],
+        "sharesGivenName": "RAMESH",
+        "pnrCustomerID": "PATIL/RAMESH",
+        "knownTravelerNumber": null,
+        "canadianTravelNumber": null,
+        "redressNumber": null,
+        "ktnDisplaySequence": null,
+        "redressDisplaySequence": null,
+        "passengerName": {
+          "title": "",
+          "first": "RAMESH",
+          "middle": "",
+          "last": "PATIL",
+          "suffix": "",
+          "dateOfBirth": ""
+        },
+        "sharesPosition": "1.1",
+        "mileagePlus": {
+          "accountBalance": 0,
+          "activeStatusCode": "",
+          "activeStatusDescription": "",
+          "travelBankBalance": 0.0,
+          "allianceEliteLevel": 0,
+          "closedStatusCode": "",
+          "closedStatusDescription": "",
+          "currentEliteLevel": 0,
+          "currentEliteLevelDescription": "Member",
+          "currentYearMoneySpent": 0.0,
+          "eliteMileageBalance": 0,
+          "eliteSegmentBalance": 0,
+          "eliteSegmentDecimalPlaceValue": 0,
+          "encryptedPin": "",
+          "enrollDate": "",
+          "enrollSourceCode": "",
+          "enrollSourceDescription": "",
+          "flexPqmBalance": 0,
+          "futureEliteLevel": 0,
+          "futureEliteDescription": "",
+          "instantEliteExpirationDate": "",
+          "isCEO": false,
+          "isClosedPermanently": false,
+          "isClosedTemporarily": false,
+          "isCurrentTrialEliteMember": false,
+          "isFlexPqm": false,
+          "isInfiniteElite": false,
+          "isLifetimeCompanion": false,
+          "isLockedOut": false,
+          "isMergePending": false,
+          "isUnitedClubMember": false,
+          "isPresidentialPlus": false,
+          "key": "",
+          "lastActivityDate": "",
+          "lastExpiredMile": 0,
+          "lastFlightDate": "",
+          "lastStatementBalance": 0,
+          "lastStatementDate": "",
+          "lifetimeEliteLevel": 0,
+          "lifetimeEliteMileageBalance": 0,
+          "mileageExpirationDate": "",
+          "nextYearEliteLevel": 0,
+          "nextYearEliteLevelDescription": "",
+          "mileagePlusId": "BBV33152",
+          "mileagePlusPin": "",
+          "priorUnitedAccountNumber": "",
+          "starAllianceEliteLevel": 0,
+          "mpCustomerId": 0,
+          "vendorCode": "UA",
+          "premierLevelExpirationDate": "",
+          "instantElite": null,
+          "travelBankAccountNumber": null,
+          "travelBankCurrencyCode": null,
+          "travelBankExpirationDate": null
+        },
+        "oaRewardPrograms": null,
+        "isMPMember": false,
+        "loyaltyProgramProfile": {
+          "loyaltyProgramCarrierCode": "UA",
+          "loyaltyProgramID": "",
+          "loyaltyProgramMemberID": "BBV33152",
+          "loyaltyProgramMemberTierLevel": "MP",
+          "starEliteLevel": "",
+          "loyaltyProgramMemberTierDescription": "GeneralMember"
+        },
+        "employeeProfile": null
+      }
+    ],
+    "segments": [
+      {
+        "isCheckedIn": false,
+        "isCheckInEligible": false,
+        "isAllPaxCheckedIn": false,
+        "scheduleChangeInfo": null,
+        "isChangeOfGuage": false,
+        "isCanadaSegment": false,
+        "showSeatMapLink": true,
+        "noProtection": "",
+        "inCabinPetInfo": null,
+        "ssrMeals": "",
+        "ticketCouponStatus": "",
+        "tripNumber": "1",
+        "segmentNumber": 1,
+        "isPlusPointSegment": false,
+        "hasPreviousSegmentDetails": false,
+        "isElf": false,
+        "isIBE": false,
+        "bundles": [
+          {
+            "passengerSharesPosition": "1.1",
+            "segmentId": "",
+            "bundle": "",
+            "isEPU": false,
+            "isPremierAccess": false,
+            "isBonusMiles": false,
+            "isClubTripPass": false,
+            "isExtraBag": false,
+            "bundleDescription": ""
+          }
+        ],
+        "operationoperatingCarrier": {
+          "code": "UA",
+          "name": "United Airlines",
+          "flightNumber": ""
+        },
+        "aircraft": {
+          "code": "738",
+          "shortName": "",
+          "longName": "Boeing 737-800",
+          "modelCode": "738"
+        },
+        "meal": "Snacks for Purchase",
+        "flightTime": "2 HR 41 MN",
+        "groundTime": "00:00:00",
+        "totalTravelTime": "",
+        "actualMileage": "926",
+        "mileagePlusMileage": "926",
+        "emp": "",
+        "totalMileagePlusMileage": "",
+        "classOfService": "K",
+        "classOfServiceDescription": "United Economy",
+        "seats": [
+          {
+            "number": "22A",
+            "seatRow": "",
+            "seatLetter": "",
+            "passengerSHARESPosition": "1.1",
+            "seatStatus": "",
+            "segmentIndex": "1",
+            "origin": "IAH",
+            "destination": "ORD",
+            "eddNumber": "01642530614112",
+            "eDocId": "",
+            "price": 25.0,
+            "currency": "USD",
+            "programCode": "PZA"
+          }
+        ],
+        "numberOfStops": "",
+        "stops": [],
+        "scheduledDepartureDateTimeGMT": "12/31/2023 11:00 AM",
+        "scheduledArrivalDateTimeGMT": "12/31/2023 1:41 PM",
+        "codeshareCarrier": {
+          "code": "UA",
+          "name": "",
+          "flightNumber": "2653"
+        },
+        "codeshareFlightNumber": "",
+        "upgradeVisibility": {
+          "remarkAdvisoryType": "NONE",
+          "carrierCode": "UA",
+          "classOfService": "K",
+          "departureDateTime": "12/31/2023 05:00 AM",
+          "destination": "ORD",
+          "flightNumber": 2653,
+          "origin": "IAH",
+          "previousSegmentActionCode": "NN",
+          "segmentActionCode": "HK1",
+          "segmentNumber": 1,
+          "upgradeRemark": "",
+          "decodedUpgradeMessage": "",
+          "upgradeMessage": "ReservationHoldersAreNotEligibleForUpgrade",
+          "upgradeMessageCode": "None",
+          "upgradeProperties": [
+            {
+              "key": "None",
+              "value": "False"
+            },
+            {
+              "key": "None",
+              "value": "None"
+            }
+          ],
+          "upgradeStatus": "1",
+          "upgradeType": "Unknown",
+          "waitlistSegments": null
+        },
+        "upgradeable": false,
+        "upgradeableMessageCode": "",
+        "upgradeableMessage": "",
+        "complimentaryInstantUpgradeMessage": "",
+        "remove": false,
+        "waitlisted": false,
+        "lowestEliteLevel": 0,
+        "upgradeableRemark": "",
+        "actionCode": "HK1",
+        "upgradeEligible": false,
+        "waitedCOSDesc": "",
+        "lmxProducts": null,
+        "cabinType": "United Economy",
+        "nonPartnerFlight": false,
+        "productCode": "",
+        "fareBasisCode": "KAA4AZDS",
+        "uflifoFlightStatus": "",
+        "marketingCarrier": {
+          "code": "UA",
+          "name": "United Airlines",
+          "flightNumber": "2653"
+        },
+        "flightNumber": "2653",
+        "departure": {
+          "code": "IAH",
+          "name": "Houston, TX (IAH)",
+          "city": "Houston"
+        },
+        "arrival": {
+          "code": "ORD",
+          "name": "Chicago, IL (ORD)",
+          "city": "Chicago"
+        },
+        "scheduledDepartureDateTime": "12/31/2023 5:00 AM",
+        "scheduledArrivalDateTime": "12/31/2023 7:41 AM",
+        "scheduledDepartureTimeGMT": "",
+        "scheduledArrivalTimeGMT": "",
+        "formattedScheduledDepartureDateTime": "",
+        "formattedScheduledArrivalDateTime": "",
+        "formattedScheduledDepartureDate": "",
+        "formattedScheduledArrivalDate": "",
+        "formattedScheduledDepartureTime": "",
+        "formattedScheduledArrivalTime": ""
+      }
+    ],
+    "checkinEligible": "N",
+    "lastTripDateDepartureDate": "12/31/2023 05:00 AM",
+    "lastTripDateArrivalDate": "12/31/2023 07:41 AM",
+    "alreadyCheckedin": "false",
+    "notValid": "false",
+    "validforCheckin": "false",
+    "pnrCanceled": "false",
+    "seatOffer": null,
+    "isEligibleToSeatChange": true,
+    "petRecordLocators": [],
+    "emailAddress": "RAMESH.TAKE@DXC.COM",
+    "upgradeMessage": "",
+    "bundleInfo": {
+      "flightSegments": [
+        {
+          "bundle": "EPU",
+          "isEPU": true,
+          "isPremierAccess": false,
+          "isBonusMiles": false,
+          "isClubTripPass": false,
+          "isExtraBag": false,
+          "segmentId": "1",
+          "travelers": [
+            {
+              "bundleDescription": "Travel options Bundle",
+              "id": "0",
+              "givenName": "RAMESH",
+              "surname": "PATIL",
+              "ticketingDate": "0001-01-01T00:00:00",
+              "ticketingDateString": "",
+              "loyalty": null
+            }
+          ],
+          "arrivalAirport": "ORD",
+          "arrivalAirportName": null,
+          "carrierCode": null,
+          "departureAirport": "IAH",
+          "departureAirportName": null,
+          "departureDate": "12/31/2023",
+          "flightNumber": "2653"
+        }
+      ],
+      "errorMessage": ""
+    },
+    "farelockExpirationDate": "",
+    "farelockPurchaseMessage": "Please visit the full version of united.com to complete the purchase of this reservation.",
+    "earnedMilesHeader": "MileagePlus® earning information",
+    "earnedMilesText": "Award miles shown are the miles that can be earned for this flight. Mileage accrued will vary depending on the terms and conditions of your frequent flyer program. United MileagePlus mileage accrual and other benefits of MileagePlus associated with air travel are subject to the rules of the MileagePlus program.\\n\\nYou can earn up to 75,000 award miles per ticket. The 75,000 award miles cap may be applied to your posted flight activity in an order different than shown.",
+    "ineligibleToEarnCreditMessage": "This itinerary includes one or more flights that are ineligible to earn mileage or Premier qualifying credit.",
+    "oaIneligibleToEarnCreditMessage": "Ineligible to accrue mileage or Premier qualifying credit.",
+    "awardTravel": false,
+    "psSaTravel": false,
+    "supressLMX": false,
+    "overMileageLimitMessage": "You can earn up to 75,000 award miles per ticket. The 75,000 award miles cap may be applied to your posted flight activity in an order different than shown.",
+    "overMileageLimitAmount": "75000",
+    "syncedWithConcur": "",
+    "tripType": "One-way",
+    "isTPIIncluded": false,
+    "isFareLockOrNRSA": false,
+    "hasCheckedBags": false,
+    "urlItems": [],
+    "editTravelerInfo": null,
+    "encryptPNR": null,
+    "encryptLastName": null,
+    "isgroup": false,
+    "isBulk": false,
+    "isIBELite": false,
+    "isIBE": false,
+    "isCBE": false,
+    "hasScheduleChanged": false,
+    "statusMessageItems": null,
+    "productCode": "",
+    "productCategory": "Economy",
+    "marketType": "Domestic",
+    "checkInStatus": "0",
+    "getCheckInStatusFromCSLPNRRetrivalService": true,
+    "irrOps": false,
+    "irrOpsViewed": false,
+    "fareLockMessage": "",
+    "fareLockPurchaseButton": "",
+    "fareLockPriceButton": "",
+    "associateMPId": "false",
+    "associateMPIdSharesPosition": "",
+    "associateMPIdSharesGivenName": "",
+    "associateMPIdMessage": "",
+    "prices": null,
+    "oneClickEnrollmentEligibility": {
+      "joinMileagePlusHeader": "Join MileagePlus for free",
+      "joinMileagePlusText": "Save, manage your trip, and check in faster with a free MileagePlus account",
+      "joinMileagePlus": "Join now"
+    },
+    "isJSENonChangeableFare": false,
+    "is24HrFlexibleBookingPolicy": false,
+    "travelerInfo": null
+  },
+  "dotBagRules": [ "Baggage allowances and fees", "United accepts one carry-on item of no more than 45 linear inches or 114 linear centimeters in the aircraft cabin, along with one personal item (such as a shoulder or laptop bag).", " ", "In general, checked baggage fees are charged at any point in the itinerary where bags are checked. For itineraries operated exclusively by United or United Express, standard fees will apply to checked baggage with a maximum weight of 50 pounds (23 kg) per bag and a maximum outside linear dimension of 62 inches (157 cm) as follows:", " ", "Within the U.S. (including Hawaii, Puerto Rico and the U.S .Virgin Islands) and between the U.S. and Canada: First checked bag $25, second checked bag $35", "Between the U.S./Canada and the Caribbean: First checked bag $25, second checked bag $40", "Between the U.S. and Mexico/Central America: First checked bag $0, second checked bag $40", "Between the U.S. and Asia/Australia/New Zealand/Micronesia/Europe/Middle East/South America (except Brazil and Venezuela): First checked bag $0, second checked bag $70", "Between the U.S. and Africa: First checked bag $0, second checked bag $70 (Fee applies only to/from Egypt/Malawi/Morocco/Zambia; all other African countries have a $0 second bag fee.)", "Between the U.S. (except Hawaii) and Japan: First checked bag $0, second checked bag $0", "Between Hawaii, Micronesia and Japan: First checked bag $0, second checked bag $40", " ", "First and second checked bag fees do not apply to active-duty members of the U.S. military and their accompanying dependents, customers confirmed in United PolarisSM First, United First®, United PolarisSM Business or United Business®, or to United Global ServicesSM, MileagePlus® Premier® 1K®, Premier Platinum, Premier Gold or Star Alliance® Gold members, or Presidential PlusSM or MileagePlus Club primary credit cardholders. First checked bag fee does not apply to MileagePlus Premier Silver or Star Alliance Silver members, or MileagePlus Explorer or OnePassSM Plus primary credit cardholders.", " ", "For additional information regarding checked baggage fees, allowances, weight/size restrictions, exceptions, embargoes, or overweight, oversized, odd-sized and sporting equipment charges, go to united.com/baggage and select your special items and restrictions category.", " ", "For travel itineraries that include flights operated by our alliance partners or other airlines, different baggage fees may apply. Learn more at united.com/baggageservices." ],
+  "dotBaggageInformation": null,
+  "countDownWidgetInfo": {
+    "sectionTitle": "Countdown widget",
+    "sectionDescription": "Excited about your next trip? Count the days with the new United countdown widget.",
+    "instructionLinkText": "How to add the widget",
+    "instructionPageTitle": "How to add the widget",
+    "instructionPageContent": "<p><b>How to add the widget to your home screen on Android:</b></p><p>1. On your home screen, touch anywhere on the screen and hold until you see the customize view window.</p><p>2. Select the “Widgets.”</p><p>3. Enter \"United\" in the search bar and select the United widget.</p><p>4. Choose the widget you want and select \"Add.\"</p><p>5. Hold down on the widget to move it to wherever you want on your home screen. </p>"
+  },
+  "showSeatChange": true,
+  "showPremierAccess": false,
+  "showAddCalendar": true,
+  "showBaggageInfo": true,
+  "premierAccess": null,
+  "tripInsuranceInfo": {
+    "tNC": "By adding trip insurance, I acknowledge I have read, understandand agree to the terms and conditions of the <a href =\"https://webservices.travelguard.com/Product/FileRetrieval.aspx?CountryCode=US&amp;StateCode=AL&amp;ProductCode=009516&amp;PlanCode=NW21&amp;FileType=PROD_PLAN_DT\" target=\"_blank\">Policy of Insurance</a> and <a href =\"https://www-130.aig.com/us/en/important-disclosures\" target=\"_blank\">Important Disclosures.</a>",
+    "tpiAIGReturnedMessageContentList": [
+      {
+        "id": "COVID19EmergencyAlertManageRes",
+        "currentValue": "COVID-19 is a foreseen event and certain coverages will not apply. <a href =\"https://www-130.aig.com/us/en/covid19notification\" target=\"_blank\">Please read the details here</a>",
+        "saveToPersist": false
+      }
+    ],
+    "tileLinkText": "",
+    "productCode": "TPI",
+    "productName": "Trip insurance",
+    "displayAmount": "$14.00",
+    "formattedDisplayAmount": "",
+    "amount": 14.0,
+    "coverCost": "$148.91",
+    "pageTitle": "Travel Guard® Insurance",
+    "title1": "Cover your trip with",
+    "title2": "For",
+    "title3": "",
+    "quoteTitle": "Travel Guard® Insurance",
+    "headline1": "Travel Guard Insurance from AIG Travel",
+    "headline2": "Add Travel Guard Insurance",
+    "body1": "Are you prepared?",
+    "body2": "For millions of travelers every year, Travel Guard is their choice when the unexpected happens away from home. A Travel Guard travel insurance plan from AIG Travel can help cover your trip investment, offset expenses from travel mishaps and provide you with emergency travel assistance.",
+    "body3": "Coverage is offered by Travel Guard Group, Inc. and <a href =\"https://webservices.travelguard.com/Product/FileRetrieval.aspx?CountryCode=US&amp;StateCode=AL&amp;ProductCode=009516&amp;PlanCode=NW21&amp;FileType=PROD_PLAN_DT\" target=\"_blank\">limitations will apply;</a> read <a href =\"https://www-130.aig.com/us/en/important-disclosures\" target=\"_blank\">Important Disclosures.</a><br/><br/>Plan not available to Washington and New York residents.",
+    "lineItemText": "Covers total trip cost of",
+    "image": "https://container.travelguard.com/content/dam/tg-container/uausa/mobileappmb-mr/walking-airport-640x400.jpg",
+    "productId": "e727065c-6b6c-4528-bbbb-25ee5a57d161",
+    "paymentContent": "Travel insurance",
+    "pkDispenserPublicKey": "",
+    "confirmation1": "You have purchased Travel Guard® trip insurance from AIG Travel. Insurance details, along with applicable definitions and terms of coverage, are fully described in your Policy of Insurance. It  is your responsibility to read and understand the details of your coverage.",
+    "confirmation2": "To ask about a Travel Guard product or file a claim, please call 1-877-934-8308.",
+    "tileImage": "",
+    "tileTitle1": "",
+    "tileTitle2": "",
+    "tileQuoteTitle": "",
+    "offerHeaderV2": "Cover your trip with Travel Guard® Insurance",
+    "offerTitleV2": "Travel with confidence"
+  },
+  "ancillary": {
+    "placePass": null,
+    "awardAccelerators": null,
+    "premiumCabinUpgrade": null,
+    "priorityBoarding": null,
+    "travelOptionsBundle": null,
+    "basicEconomyBuyOut": null
+  },
+  "travelOptions": {
+    "title": "For your trip",
+    "seeAllOffersLinkText": null,
+    "productTiles": [
+      {
+        "productTitle": "Bundle offer 1",
+        "productCode": "B05",
+        "priceText": "$74",
+        "priceSubText": "/person",
+        "productDetails": [
+          {
+            "title": "United C​​lub​ trip pass​​​​",
+            "icon": "https://media.united.com/assets/m/25be2f7867a8674a/original/unitedclub.jpg",
+            "code": "CTP",
+            "description": "Enjoy access before departure and after arrival."
+          },
+          {
+            "title": "Bonus Miles",
+            "icon": "https://media.united.com/assets/m/1966531109ac2dd4/original/miles.jpg",
+            "code": "BMI",
+            "description": "Earn extra award miles for this trip and get closer to your next award flight.​​​"
+          }
+        ],
+        "badgeText": null,
+        "badgeBackgroundColor": null,
+        "badgeFontColor": null,
+        "productName": "BUNDLE",
+        "showUpliftPerMonthPrice": false,
+        "amount": 74.0,
+        "accessibilityText": null,
+        "fromText": null
+      },
+      {
+        "productTitle": "Travel with confidence",
+        "productCode": "TPI",
+        "priceText": "$14.00",
+        "priceSubText": null,
+        "productDetails": [
+          {
+            "title": "Cover your trip with Travel Guard® Insurance",
+            "icon": null,
+            "code": "TPI",
+            "description": null
+          }
+        ],
+        "badgeText": null,
+        "badgeBackgroundColor": null,
+        "badgeFontColor": null,
+        "productName": "TPI",
+        "showUpliftPerMonthPrice": false,
+        "amount": 14.0,
+        "accessibilityText": null,
+        "fromText": null
+      }
+    ],
+    "correlationId": "1703009298097127000000001000801"
+  },
+  "sustainableAviationFuel": null,
+  "petEligibility": null,
+  "transactionId": "61df3b15-de77-4556-a815-02b0a5ad7f20|10183f9d-fe40-4862-afd6-d032f4c9a1b9",
+  "languageCode": "en-US",
+  "machineName": "ip-10-37-146-73",
+  "callDuration": 0,
+  "exception": null
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "MileagePlusId": "AW719636",
+    "CustomerId": "1",
+    "EnrollmentDate": "12/11/1990",
+    "AlreadyEnrolled": true,
+    "Errors": [
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "30065",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "",
+        "UserFriendlyMessage": "",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      },
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "30071",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "",
+        "UserFriendlyMessage": "Please enter a valid password.",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      }
+    ]
+  },
+  {
+    "MileagePlusId": "AW719636",
+    "CustomerId": "0",
+    "EnrollmentDate": "12/11/1990",
+    "AlreadyEnrolled": true,
+    "Errors": [
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "30065",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "",
+        "UserFriendlyMessage": "",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      },
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "30071",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "",
+        "UserFriendlyMessage": "Please enter a valid password.",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      }
+    ]
+  },
+  {
+    "MileagePlusId": "AW719636",
+    "CustomerId": "0",
+    "EnrollmentDate": "12/11/1990",
+    "AlreadyEnrolled": true,
+    "Errors": [
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "You are not authorized to cancel this travel plan.",
+        "UserFriendlyMessage": "",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      },
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "You are not authorized to cancel this travel plan.",
+        "UserFriendlyMessage": "Please enter a valid password.",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      }
+    ]
+  },
+  {
+    "MileagePlusId": "AW719636",
+    "CustomerId": "0",
+    "EnrollmentDate": "12/11/1990",
+    "AlreadyEnrolled": true,
+    "Errors": [
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "",
+        "UserFriendlyMessage": "",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      },
+      {
+        "MajorCode": null,
+        "MajorDescription": "You are not authorized to cancel this travel plan.",
+        "MinorCode": "",
+        "MinorDescription": "",
+        "Message": null,
+        "ErrorType": "",
+        "UserFriendlyMessageType": "",
+        "UserFriendlyMessageNumber": "",
+        "UserFriendlyMessage": "Please enter a valid password.",
+        "CallTime": "2021-07-28T16:24:24.6134583-04:00"
+      }
+    ]
+  }
+]

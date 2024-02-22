@@ -1,0 +1,708 @@
+{
+  "sessionID": "BD6CE5D9E05C41DE9A7ED828DE17B457",
+  "mileagePlusNumber": "AW719636",
+  "customerID": 123921762,
+  "hashValue": "70C596DEB6C8A21E738642861D74BE96FC9BDEC9",
+  "securityUpdate": false,
+  "tFAMPDeviceSecurityPath": "None",
+  "request": null,
+  "securityQuestions": null,
+  "tFAMPDeviceMessages": null,
+  "tFAMPDeviceCompleteMessage": null,
+  "MPSignInPath": "CorporateBookingPath",
+  "IsSignInWithTouchID": true,
+  "rememberMEFlags": {
+    "rememberMEButtonMessages": [
+      {
+        "id": "ButtonTitle",
+        "currentValue": "Remember me on this device",
+        "saveToPersist": true
+      },
+      {
+        "id": "ButtonTagLine",
+        "currentValue": "You won't have to answer security questions again.",
+        "saveToPersist": true
+      }
+    ],
+    "showRememberMeDeviceButton": true,
+    "rememberMeDeviceSwitchON": true
+  },
+  "showContinueAsGuestButton": false,
+  "opAccountSummary": {
+    "mileagePlusNumber": "AW719636",
+    "customerId": 123921762,
+    "name": {
+      "title": "MR",
+      "first": "Fnamea",
+      "middle": "",
+      "last": "LSDM",
+      "suffix": ""
+    },
+    "balance": "130154035",
+    "balanceExpireDate": "",
+    "balanceExpireDisclaimer": "Great travel memories never expire, and now, miles don’t either. We’re excited to share that there’s no expiration date on the miles you’ve earned with us.",
+    "noMileageExpiration": "False",
+    "noMileageExpirationMessage": "Great travel memories never expire, and now, miles don’t either. We’re excited to share that there’s no expiration date on the miles you’ve earned with us.",
+    "eliteStatus": {
+      "code": "0",
+      "description": "Member",
+      "starEliteDescription": "No Status",
+      "esda": "Member",
+      "level": 0
+    },
+    "enrollDate": "01/30/2015",
+    "lastFlightDate": "08/17/2021",
+    "lastActivityDate": "11/12/2021",
+    "eliteMileage": "0",
+    "eliteSegment": "0",
+    "lastExpiredMileDate": "",
+    "lastExpiredMile": 0,
+    "hasUAClubMemberShip": true,
+    "uAClubMemberShipDetails": {
+      "memberTypeCode": "A",
+      "memberTypeDesc": "United Club membership",
+      "effectiveDate": "12/31/2019",
+      "discontinueDate": "01/30/2022",
+      "companionMileagePlus": "",
+      "primaryOrCompanion": ""
+    },
+    "Profiles": [
+      {
+        "airportCode": "",
+        "airportNameLong": "",
+        "airportNameShort": "",
+        "corporateData": {
+          "companyName": "",
+          "discountCode": "",
+          "leisureDiscountCode": "",
+          "errors": null,
+          "fareGroupId": "",
+          "isValid": false,
+          "vendorId": 0,
+          "vendorName": "",
+          "corporateBookingType": null,
+          "noOfTravelers": 0
+        },
+        "description": "My Profile",
+        "key": "1+Cs6yk2DEHWf1MiX9o74A==",
+        "languageCode": "",
+        "profileId": 59925026,
+        "profileMembers": null,
+        "profileOwnerId": 123901727,
+        "profileOwnerKey": "sE5JbxhocURpfXLkVvx6wTQpIVYs8eE2giEtR9ddb4c=",
+        "quickCreditCardKey": "",
+        "quickCreditCardNumber": "",
+        "quickCustomerId": 0,
+        "quickCustomerKey": "",
+        "travelers": [
+          {
+            "title": "Mr.",
+            "firstName": "test",
+            "middleName": "sam",
+            "lastName": "jeste",
+            "suffix": "",
+            "genderCode": "M",
+            "birthDate": "08/31/1988",
+            "isProfileOwner": true,
+            "isDeceased": false,
+            "isExecutive": false,
+            "key": "sE5JbxhocURpfXLkVvx6wTQpIVYs8eE2giEtR9ddb4c=",
+            "customerId": 123901727,
+            "customerMetrics": {
+              "ptcCode": ""
+            },
+            "profileId": 59925026,
+            "profileOwnerId": 123901727,
+            "currentEliteLevel": 0,
+            "mileagePlus": {
+              "accountBalance": 862359,
+              "activeStatusCode": "A",
+              "activeStatusDescription": "ACTIVE",
+              "allianceEliteLevel": 0,
+              "closedStatusCode": "O",
+              "closedStatusDescription": "OPEN",
+              "currentEliteLevel": 0,
+              "currentEliteLevelDescription": "General member",
+              "currentYearMoneySpent": 0.0,
+              "eliteMileageBalance": 0,
+              "eliteSegmentBalance": 0,
+              "eliteSegmentDecimalPlaceValue": 0,
+              "encryptedPin": "",
+              "enrollDate": "01/28/2015",
+              "enrollSourceCode": "IN15",
+              "enrollSourceDescription": "2002 CO.COM NEW BOOKING SITE",
+              "flexPqmBalance": 0,
+              "futureEliteLevel": 0,
+              "futureEliteDescription": "Non-Elite",
+              "instantEliteExpirationDate": "Non-Elite",
+              "isCEO": false,
+              "isClosedPermanently": false,
+              "isClosedTemporarily": false,
+              "isCurrentTrialEliteMember": false,
+              "isFlexPqm": false,
+              "isInfiniteElite": false,
+              "isLifetimeCompanion": false,
+              "isLockedOut": false,
+              "isMergePending": false,
+              "isUnitedClubMember": false,
+              "isPresidentialPlus": false,
+              "key": "O4ZSED6I6kFdsf/y6dZpdw==",
+              "lastActivityDate": "10/26/2021 12:00:00 AM",
+              "lastExpiredMile": 0,
+              "lastFlightDate": "",
+              "lastStatementBalance": 0,
+              "lastStatementDate": "01/01/0001",
+              "lifetimeEliteLevel": 0,
+              "lifetimeEliteMileageBalance": 0,
+              "mileageExpirationDate": "4/30/2023 12:00:00 AM",
+              "nextYearEliteLevel": 0,
+              "nextYearEliteLevelDescription": "",
+              "mileagePlusId": "AW719636",
+              "mileagePlusPin": "",
+              "priorUnitedAccountNumber": "",
+              "starAllianceEliteLevel": 0,
+              "mpCustomerId": 123901727,
+              "vendorCode": null,
+              "premierLevelExpirationDate": "",
+              "instantElite": null,
+              "travelBankAccountNumber": null,
+              "travelBankBalance": 0.0,
+              "travelBankCurrencyCode": null,
+              "travelBankExpirationDate": null
+            },
+            "emailAddresses": [
+              {
+                "key": "88xkIbt1RCHYfRo6DfVK7WLUY9c46CcXlQYmmE/TbyM69wXrmv+dDnvmcdShxkb8",
+                "channel": {
+                  "channelCode": "E",
+                  "channelDescription": "Email",
+                  "channelTypeCode": "O",
+                  "channelTypeDescription": "Other"
+                },
+                "emailAddress": "test@united.com",
+                "isPrivate": false,
+                "isDefault": true,
+                "isPrimary": true,
+                "isDayOfTravel": false
+              }
+            ],
+            "phones": [
+              {
+                "areaNumber": "713",
+                "attention": "",
+                "channelCode": "P",
+                "channelCodeDescription": "Phone",
+                "channelTypeCode": "H",
+                "channelTypeDescription": "Home",
+                "channelTypeSeqNumber": 1,
+                "countryCode": "US",
+                "countryNumber": "",
+                "countryPhoneNumber": "",
+                "customerId": 123901727,
+                "description": "",
+                "discontinuedDate": "1/1/3001 9:00:00 AM",
+                "effectiveDate": "1/29/2015 1:13:15 AM",
+                "extensionNumber": "",
+                "isPrimary": true,
+                "isPrivate": false,
+                "isProfileOwner": true,
+                "key": "J2z2I8DhkQ5SHhLNQlD6AvbNY7KzOBdWxBKZ8zje+Y2EG2htMThQkpK+s+1KJRX1",
+                "languageCode": "EN",
+                "mileagePlusId": "",
+                "pagerPinNumber": "",
+                "phoneNumber": "3241234",
+                "sharesCountryCode": "",
+                "wrongPhoneDate": "",
+                "deviceTypeCode": "PH",
+                "deviceTypeDescription": "Phone",
+                "isDayOfTravel": false,
+                "isSMSEnabled": false
+              }
+            ],
+            "addresses": [
+              {
+                "key": "XhBH7SFc4dvuP2yeA+G2BZqv1ikJHqPS1ztvtTwRHLQ0RgA3f8XdwkhU8TosOAbC",
+                "channel": {
+                  "channelCode": "A",
+                  "channelDescription": "Address",
+                  "channelTypeCode": "H",
+                  "channelTypeDescription": "Home"
+                },
+                "companyName": "",
+                "jobTitle": "",
+                "line1": "1600 smith st",
+                "line2": "",
+                "line3": "",
+                "apartmentNumber": "",
+                "city": "houston",
+                "state": {
+                  "code": "TX",
+                  "name": ""
+                },
+                "country": {
+                  "code": "US",
+                  "name": "United States",
+                  "phoneCode": ""
+                },
+                "isPrivate": false,
+                "isDefault": false,
+                "isPrimary": true,
+                "isCorporate": false,
+                "postalCode": "77002-7362",
+                "isValidForTPIPurchase": true
+              }
+            ],
+            "airPreferences": [],
+            "creditCards": [
+              {
+                "key": "9zVRv0gUYxs8bQTUueqOAQx1lpn3oShanU4QtaYdCUtr9EszNFP2RZY1XcezDqpvmF2d9Zniynn6Nf7kuOAQOiQcpfFikgPoXmce544E+Vg=",
+                "cardType": "VI",
+                "cardTypeDescription": "Visa",
+                "description": "",
+                "expireMonth": "5",
+                "expireYear": "2022",
+                "isPrimary": true,
+                "unencryptedCardNumber": "XXXXXXXXXXXX5678",
+                "encryptedCardNumber": "",
+                "displayCardNumber": "XXXXXXXXXXXX5678",
+                "cIDCVV2": "",
+                "cCName": "test",
+                "addressKey": "XhBH7SFc4dvuP2yeA+G2BZqv1ikJHqPS1ztvtTwRHLQ0RgA3f8XdwkhU8TosOAbC",
+                "phoneKey": "",
+                "message": "",
+                "accountNumberToken": "26bbc573-f2fe-477f-9261-475e8c7079f6",
+                "persistentToken": "9808016830015678",
+                "securityCodeToken": "",
+                "barCode": "",
+                "isCorporate": false,
+                "isMandatory": false,
+                "billedSeperateText": null,
+                "isValidForTPIPurchase": true,
+                "isOAEPPaddingCatalogEnabled": false
+              },
+              {
+                "key": "9zVRv0gUYxs8bQTUueqOATcs+OHpfzIgoQXf3Ot5+ertRH0TsoAIE2tZDL/Q+/AitA6sM5NUhku1JJPY5bDXwxKzRMOt6DxSYu1o+P7U9vA=",
+                "cardType": "TP",
+                "cardTypeDescription": "UATP",
+                "description": "",
+                "expireMonth": "2",
+                "expireYear": "2022",
+                "isPrimary": false,
+                "unencryptedCardNumber": "XXXXXXXXXXXX0014",
+                "encryptedCardNumber": "",
+                "displayCardNumber": "XXXXXXXXXXXX0014",
+                "cIDCVV2": "",
+                "cCName": "test tester",
+                "addressKey": "XhBH7SFc4dvuP2yeA+G2BZqv1ikJHqPS1ztvtTwRHLQ0RgA3f8XdwkhU8TosOAbC",
+                "phoneKey": "",
+                "message": "",
+                "accountNumberToken": "6dd7b98d-6f04-4aa6-9c79-339f1b5b0672",
+                "persistentToken": "862605146640014",
+                "securityCodeToken": "",
+                "barCode": "",
+                "isCorporate": false,
+                "isMandatory": false,
+                "billedSeperateText": null,
+                "isValidForTPIPurchase": false,
+                "isOAEPPaddingCatalogEnabled": false
+              },
+              {
+                "key": "9zVRv0gUYxs8bQTUueqOAZVoli0I55lFhuO2NSQoRD4EOnxsnRG07l6UJX4rgN/MHgAbvzrPm/o31rC/MFPZ3E3qesOELHzxVIlGwbKIOE8=",
+                "cardType": "VI",
+                "cardTypeDescription": "Visa",
+                "description": "",
+                "expireMonth": "2",
+                "expireYear": "2025",
+                "isPrimary": false,
+                "unencryptedCardNumber": "XXXXXXXXXXXX1111",
+                "encryptedCardNumber": "",
+                "displayCardNumber": "XXXXXXXXXXXX1111",
+                "cIDCVV2": "",
+                "cCName": "test",
+                "addressKey": "XhBH7SFc4dvuP2yeA+G2BZqv1ikJHqPS1ztvtTwRHLQ0RgA3f8XdwkhU8TosOAbC",
+                "phoneKey": "",
+                "message": "",
+                "accountNumberToken": "756eb081-b9a0-4e0e-8ee6-b1ea4d094c65",
+                "persistentToken": "3600783564051111",
+                "securityCodeToken": "",
+                "barCode": "",
+                "isCorporate": false,
+                "isMandatory": false,
+                "billedSeperateText": null,
+                "isValidForTPIPurchase": true,
+                "isOAEPPaddingCatalogEnabled": false
+              }
+            ],
+            "secureTravelers": null,
+            "airRewardPrograms": [],
+            "travelerTypeCode": "ADT",
+            "travelerTypeDescription": "Adults (age 18 to 64)",
+            "travelProgramMemberId": "",
+            "knownTravelerNumber": "",
+            "redressNumber": "",
+            "ownerFirstName": "test",
+            "ownerLastName": "jeste",
+            "ownerMiddleName": "sam",
+            "ownerSuffix": "",
+            "ownerTitle": "Mr.",
+            "paxIndex": 0,
+            "seats": null,
+            "subscriptions": null,
+            "travelerNameIndex": null,
+            "isTSAFlagON": false,
+            "message": "",
+            "mpNameNotMatchMessage": "",
+            "isMPNameMisMatch": false,
+            "reservationEmailAddresses": [
+              {
+                "key": "88xkIbt1RCHYfRo6DfVK7WLUY9c46CcXlQYmmE/TbyM69wXrmv+dDnvmcdShxkb8",
+                "channel": {
+                  "channelCode": "E",
+                  "channelDescription": "Email",
+                  "channelTypeCode": "O",
+                  "channelTypeDescription": "Other"
+                },
+                "emailAddress": "test@united.com",
+                "isPrivate": false,
+                "isDefault": true,
+                "isPrimary": true,
+                "isDayOfTravel": false
+              }
+            ],
+            "reservationPhones": [
+              {
+                "areaNumber": "713",
+                "attention": "",
+                "channelCode": "P",
+                "channelCodeDescription": "Phone",
+                "channelTypeCode": "H",
+                "channelTypeDescription": "Home",
+                "channelTypeSeqNumber": 1,
+                "countryCode": "US",
+                "countryNumber": "",
+                "countryPhoneNumber": "",
+                "customerId": 123901727,
+                "description": "",
+                "discontinuedDate": "1/1/3001 9:00:00 AM",
+                "effectiveDate": "1/29/2015 1:13:15 AM",
+                "extensionNumber": "",
+                "isPrimary": true,
+                "isPrivate": false,
+                "isProfileOwner": true,
+                "key": "J2z2I8DhkQ5SHhLNQlD6AvbNY7KzOBdWxBKZ8zje+Y2EG2htMThQkpK+s+1KJRX1",
+                "languageCode": "EN",
+                "mileagePlusId": "",
+                "pagerPinNumber": "",
+                "phoneNumber": "3241234",
+                "sharesCountryCode": "",
+                "wrongPhoneDate": "",
+                "deviceTypeCode": "PH",
+                "deviceTypeDescription": "Phone",
+                "isDayOfTravel": false,
+                "isSMSEnabled": false
+              }
+            ],
+            "mpSecurityUpdate": null,
+            "cubaTravelReason": null,
+            "EmployeeId": "006255",
+            "paxID": 0,
+            "isPaxSelected": false,
+            "nationality": null,
+            "countryOfResidence": null,
+            "selectedSpecialNeeds": null,
+            "selectedSpecialNeedMessages": null,
+            "isEligibleForSeatSelection": true,
+            "ptcDescription": "",
+            "individualTotalAmount": 0.0,
+            "cslReservationPaxTypeCode": null,
+            "pnrCustomerID": null,
+            "totalFFCNewValueAfterRedeem": "",
+            "futureFlightCredits": null,
+            "isMustRideTraveler": false
+          }
+        ],
+        "isProfileOwnerTSAFlagON": false,
+        "disclaimerList": [
+          {
+            "key": "TSAFlagTravelerDisclaimerText1",
+            "value": "To comply with the TSA Secure Flight program, the information on your flight reservations must exactly match the government-issued photo ID shown at the airport."
+          },
+          {
+            "key": "TSAFlagTravelerDisclaimerText2",
+            "value": "Please update the information below, if necessary. Note that you will only be able to update your account through this process once."
+          },
+          {
+            "key": "TSAFlagTravelerDisclaimerText3",
+            "value": "Also, for MileagePlus earnings and benefits to be applied, the name on your MileagePlus account must exactly match your ID. Travelers are required to enter a middle name if one is listed on their government-issued photo ID."
+          },
+          {
+            "key": "ProfileOwnerDisclaimerText1",
+            "value": "The information below must exactly match the government-issued photo ID that the traveler will present at the airport."
+          },
+          {
+            "key": "ProfileOwnerDisclaimerText2",
+            "value": "To comply with TSA rules, the name on your reservations must exactly match your government-issued photo ID. If the MileagePlus® account information below does not match your ID, please sign in to your account on united.com and edit your information to ensure that mileage accrual and any Premier® benefits are applied."
+          },
+          {
+            "key": "AddNewTravelerDisclaimerText1",
+            "value": "Enter your information below to exactly match the government-issued photo ID that you use when traveling. Travelers are required to enter a middle name if one is listed on their government-issued photo ID."
+          },
+          {
+            "key": "SavedTravelerDisclaimerText1",
+            "value": "The information below must exactly match the government-issued photo ID that the traveler will present at the airport."
+          },
+          {
+            "key": "SavedTravelerDisclaimerText2",
+            "value": "Enter your information below to exactly match the government-issued photo ID that you use when traveling. Travelers are required to enter a middle name if one is listed on their government-issued photo ID."
+          }
+        ],
+        "savedTravelersMPList": []
+      }
+    ],
+    "isMPAccountTSAFlagON": false,
+    "tsaMessage": "",
+    "fourSegmentMinimun": "1 of 4",
+    "premierQualifyingDollars": "$41",
+    "pDQchasewavier": "",
+    "pDQchasewaiverLabel": "",
+    "millionMilerIndicator": "",
+    "membershipCardBarCode": "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",
+    "membershipCardBarCodeString": "FFPC001UAAY305211        LSDM                FNAMEA                       P30012022^001",
+    "isCEO": false,
+    "hashValue": "70C596DEB6C8A21E738642861D74BE96FC9BDEC9",
+    "membershipCardExpirationDate": "",
+    "showChaseBonusTile": true,
+    "lifetimeMiles": 5147,
+    "premierActivity": null,
+    "yearEndPremierActivity": null,
+    "premierActivityType": 0,
+    "premierTrackerLearnAboutHeader": null,
+    "premierTrackerLearnAboutText": null,
+    "premierTrackerLearnAboutTitle": null,
+    "errorPremierActivity": null,
+    "premierStatusTrackerText": null,
+    "premierStatusTrackerLink": null,
+    "isHideMileageBalanceExpireDate": true,
+    "isIncrementalUpgrade": false,
+    "plusPoints": null,
+    "milesNeverExpireText": "",
+    "learnMoreTitle": "",
+    "learnMoreHeader": "",
+    "birthDate": "8/31/1988 4:00:00 AM",
+    "vBQPremierActivity": null,
+    "vBQWelcomeModel": null,
+    "yearEndVBQPremierActivity": null,
+    "chasePromoType": "50K",
+    "statusLiftBanner": {
+      "ImageSrcURL": null,
+      "PremierStatusURL": null
+    },
+    "travelCreditInfo": null
+  },
+  "corporateEligibleTravelType": null,
+  "customerMetrics": {
+    "ptcCode": "PPM"
+  },
+  "EmployeeId": "006255",
+  "empTravelTypeResponse": {
+    "eResTransactionId": "",
+    "sessionId": "BD6CE5D9E05C41DE9A7ED828DE17B457",
+    "empTravelType": {
+      "isTermsAndConditionsAccepted": true,
+      "numberOfPassengersInJA": 7,
+      "termsAndConditions": "",
+      "taxType": 0,
+      "verbiageDescription": "",
+      "empTravelTypes": [
+        {
+          "isEligible": true,
+          "isAuthorizationRequired": false,
+          "numberOfTravelers": 7,
+          "travelType": "RA",
+          "travelTypeDescription": "Regular or award travel",
+          "advisory": "",
+          "advanceBookingDays": 337
+        },
+        {
+          "isEligible": true,
+          "isAuthorizationRequired": false,
+          "numberOfTravelers": 7,
+          "travelType": "B",
+          "travelTypeDescription": "United business travel (NRPS)",
+          "advisory": "<p>London or Tokyo, New York or San Francisco – wherever you’re traveling for work, we want you to book company business travel responsibly. <br/><ul> <li>If your schedule permits and you are not declaring “must ride” status, choose a flight that is not at or over capacity.</li> <li>If your plans have changed and you no longer need to travel, make sure to cancel in advance the bookings you don’t need. Cancellations made within one hour of scheduled departure are reported to your leadership team.</li> <li>Avoid creating duplicate bookings. Double bookings are subject to automatic cancellation and are reported to your leadership team.</li> <li> To travel outside the 50 U.S. and its territories, many employees must <a target=\"_blank\" rel=\"noopener noreferrer\"  href =\"https://peoplesoft.ual.com/psc/prd/EMPLOYEE/HRMS/c/UAH_ESS_CUSTOM.UAH_EE_VAC_FL1.GBL?&\">upload  their COVID-19 vaccination card </a> prior to booking your trip. If required, and you haven’t already uploaded your card, you will be prompted during the booking path.</li> </ul> <br/>For more information, check out the <a target=\"_blank\" rel=\"noopener noreferrer\"  href =\"https://ft.ual.com/travel/typesoftravellandingpage/companybusinesstravel\">Company Business Travel Policy </a>.</p>",
+          "advanceBookingDays": 119
+        },
+        {
+          "isEligible": true,
+          "isAuthorizationRequired": false,
+          "numberOfTravelers": 7,
+          "travelType": "P",
+          "travelTypeDescription": "United personal travel (NRSA)",
+          "advisory": "",
+          "advanceBookingDays": 59
+        },
+        {
+          "isEligible": true,
+          "isAuthorizationRequired": false,
+          "numberOfTravelers": 7,
+          "travelType": "E",
+          "travelTypeDescription": "United emergency travel (NRPS - authorization required)",
+          "advisory": "You are creating a positive-space booking which will take a revenue seat out of inventory that could otherwise have been sold. Please book positive-space travel responsibly.<br/><br/><ul><li>Booking multiple positive-space bookings to the same or similar destination for the same business trip is not permitted.</li></ul><br/>Examples: Holding positive space for ORD PEK and IAD PEK or IAH LHR and IAH CDG for the same trip are considered duplicate bookings, as it is only possible to fly one. Holding two positive-space bookings for IAH ORD at different times for the same trip is considered a duplicate booking. Duplicate bookings are subject to automatic cancellation.<br/><br/><ul><li>Consider other flight options for segments at or over capacity if your schedule permits and you are not considered must ride.</li><li>Cancel your positive space booking promptly if you determine the flights are no longer needed.</li><li>No-Shows and last minute cancellations should be carefully avoided.</li><li>Duplicate and no-show bookings are reported to VP of each division.</li><li>To review your current positive space bookings select the “Travel Plans” tab.</li></ul><br/><p>The Emergency Pass Travel policy can be found on Flying Together > Travel  > Travel homepage > IN THIS SECTION > Types of travel> Emergency travel. Have a question? Try  <a  target=\"_blank\" rel=\"noopener noreferrer\"  href =\"https://helphub.ual.com/\">Help Hub </a> to search for answers to commonly asked questions about this policy, submit requests to the Employee Travel Center and get real-time updates on your requests.</p>",
+          "advanceBookingDays": 119
+        },
+        {
+          "isEligible": true,
+          "isAuthorizationRequired": false,
+          "numberOfTravelers": 3,
+          "travelType": "E20",
+          "travelTypeDescription": "myUAdiscount travel",
+          "advisory": "",
+          "advanceBookingDays": 337
+        }
+      ]
+    },
+    "isPayrollDeduct": true,
+    "advanceBookingDays": 119,
+    "displayEmployeeId": "006255",
+    "dependentInfos": [
+      {
+        "dependentName": {
+          "title": "",
+          "first": "Renee",
+          "middle": "M",
+          "last": "Verkuilen",
+          "suffix": ""
+        },
+        "dependentId": "496923",
+        "dateOfBirth": "11/22/1967",
+        "age": 53,
+        "relationship": {
+          "relationship": "SP",
+          "relationshipDescription": "Spouse",
+          "relationshipSubType": "",
+          "relationshipSubTypeDescription": ""
+        }
+      },
+      {
+        "dependentName": {
+          "title": "",
+          "first": "Daniel",
+          "middle": "Takashi",
+          "last": "Verkuilen",
+          "suffix": ""
+        },
+        "dependentId": "1142419",
+        "dateOfBirth": "06/11/1980",
+        "age": 41,
+        "relationship": {
+          "relationship": "SON",
+          "relationshipDescription": "Son",
+          "relationshipSubType": "B",
+          "relationshipSubTypeDescription": "Buddy"
+        }
+      },
+      {
+        "dependentName": {
+          "title": "",
+          "first": "Thomas",
+          "middle": "Hiroshi",
+          "last": "Verkuilen",
+          "suffix": ""
+        },
+        "dependentId": "1145341",
+        "dateOfBirth": "03/19/1982",
+        "age": 39,
+        "relationship": {
+          "relationship": "SON",
+          "relationshipDescription": "Son",
+          "relationshipSubType": "B",
+          "relationshipSubTypeDescription": "Buddy"
+        }
+      },
+      {
+        "dependentName": {
+          "title": "",
+          "first": "Maureen",
+          "middle": "A",
+          "last": "Verkuilen",
+          "suffix": ""
+        },
+        "dependentId": "496925",
+        "dateOfBirth": "02/24/1934",
+        "age": 87,
+        "relationship": {
+          "relationship": "MOM",
+          "relationshipDescription": "Parent",
+          "relationshipSubType": "",
+          "relationshipSubTypeDescription": ""
+        }
+      },
+      {
+        "dependentName": {
+          "title": "",
+          "first": "Maliyah",
+          "middle": "Mitsue",
+          "last": "Verkuilen",
+          "suffix": ""
+        },
+        "dependentId": "1142414",
+        "dateOfBirth": "07/13/2004",
+        "age": 17,
+        "relationship": {
+          "relationship": "GDAU",
+          "relationshipDescription": "Granddaughter",
+          "relationshipSubType": "F",
+          "relationshipSubTypeDescription": "Family"
+        }
+      },
+      {
+        "dependentName": {
+          "title": "",
+          "first": "Jennifer",
+          "middle": "Rose",
+          "last": "Verkuilen",
+          "suffix": ""
+        },
+        "dependentId": "5631946",
+        "dateOfBirth": "12/22/1981",
+        "age": 39,
+        "relationship": {
+          "relationship": "BUD",
+          "relationshipDescription": "Registered Buddy",
+          "relationshipSubType": "I",
+          "relationshipSubTypeDescription": ""
+        }
+      }
+    ],
+    "employeeName": {
+      "title": "",
+      "first": "Mark",
+      "middle": "G",
+      "last": "Verkuilen",
+      "suffix": ""
+    },
+    "employeeDateOfBirth": "11/20/1959",
+    "transactionId": "D971899F-C141-45A1-A15B-92C1D771E743",
+    "languageCode": "en-US",
+    "machineName": "03",
+    "callDuration": 0,
+    "exception": null
+  },
+  "application": {
+    "id": 2,
+    "isProduction": false,
+    "name": "Android",
+    "version": {
+      "major": "4.1.33",
+      "minor": "4.1.33"
+    }
+  },
+  "uaSubscriptions": null,
+  "isUASubscriptionsAvailable": false,
+  "youngAdultTravelType": null,
+  "transactionId": "",
+  "languageCode": "en-US",
+  "machineName": "03",
+  "callDuration": 0,
+  "exception": null
+}

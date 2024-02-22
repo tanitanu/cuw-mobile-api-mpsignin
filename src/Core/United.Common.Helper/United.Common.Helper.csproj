@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Shopping\HttpHelperThreadSafe.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CssChannelProxy" Version="5.75.0" />
+    <PackageReference Include="LoyaltyCommon" Version="1.0.6.88" />
+    <PackageReference Include="ScottBrady91.AspNetCore.Identity.BCryptPasswordHasher" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataAccess\United.Mobile.DataAccess.Common\United.Mobile.DataAccess.Common.csproj" />
+    <ProjectReference Include="..\..\DataAccess\United.Mobile.DataAccess.DynamoDB\United.Mobile.DataAccess.DynamoDB.csproj" />
+    <ProjectReference Include="..\..\DataAccess\United.Mobile.DataAccess.MPSignIn\United.Mobile.DataAccess.MPSignIn.csproj" />
+    <ProjectReference Include="..\..\DataAccess\United.Mobile.DataAccess.OnPremiseSQLSP\United.Mobile.DataAccess.OnPremiseSQLSP.csproj" />
+    <ProjectReference Include="..\..\Model\United.Mobile.Model.Common\United.Mobile.Model.Common.csproj" />
+    <ProjectReference Include="..\..\Model\United.Mobile.Model.MPSignIn\United.Mobile.Model.MPSignIn.csproj" />
+    <ProjectReference Include="..\United.Ebs.Logging\United.Ebs.Logging.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+{
+  "MerchSubscriptions": {
+    "echoTokenField": "true",
+    "timeStampFieldSpecified": true,
+    "targetNameField": "true",
+    "versionFieldSpecified": true,
+    "transactionIdentifierField": "true",
+    "sequenceNmbrField": "true",
+    "transactionStatusCodeField": "true",
+    "primaryLangIDField": "true",
+    "altLangIDField": "true"
+
+
+  }
+
+}

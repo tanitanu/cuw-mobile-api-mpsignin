@@ -1,0 +1,59 @@
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+
+FROM artifactorycloud.ual.com/l-docker/datadog/dotnet/runtime:3.1-1.28.7 AS base
+
+
+WORKDIR /app
+EXPOSE 80
+
+FROM artifactorycloud.ual.com/l-docker/ms/dotnet/core/sdk:3.1 AS build
+WORKDIR /
+
+COPY ["src/Services/MPAccountProfile/United.Mobile.MPAccountProfile.Api/United.Mobile.MPAccountProfile.Api.csproj", "src/Services/MPAccountProfile/United.Mobile.MPAccountProfile.Api/"]
+COPY ["src/Core/United.Utility.Middleware/United.Utility.Middleware.csproj", "src/Core/United.Utility.Middleware/"]
+COPY ["src/Core/United.Utility/United.Utility.csproj", "src/Core/United.Utility/"]
+COPY ["src/Core/United.Ebs.Logging/United.Ebs.Logging.csproj", "src/Core/United.Ebs.Logging/"]
+COPY ["src/Model/United.Mobile.Model.Common/United.Mobile.Model.Common.csproj", "src/Model/United.Mobile.Model.Common/"]
+COPY ["src/Model.Internal/United.Mobile.Model.Internal.Exception/United.Mobile.Model.Internal.Exception.csproj", "src/Model.Internal/United.Mobile.Model.Internal.Exception/"]
+COPY ["src/Services/MPAccountProfile/United.Mobile.MPAccountProfile.Domain/United.Mobile.MPAccountProfile.Domain.csproj", "src/Services/MPAccountProfile/United.Mobile.MPAccountProfile.Domain/"]
+COPY ["src/DataAccess/United.Mobile.DataAccess.Common/United.Mobile.DataAccess.Common.csproj", "src/DataAccess/United.Mobile.DataAccess.Common/"]
+COPY ["src/Model.Internal/United.Definition/United.Mobile.Model.Internal.Common.csproj", "src/Model.Internal/United.Definition/"]
+COPY ["src/Core/United.Common.Helper.Profile/United.Common.Helper.Profile.csproj", "src/Core/United.Common.Helper.Profile/"]
+COPY ["src/Model/United.Mobile.Model.MPSignIn/United.Mobile.Model.MPSignIn.csproj", "src/Model/United.Mobile.Model.MPSignIn/"]
+COPY ["src/Core/United.Common.Helper/United.Common.Helper.csproj", "src/Core/United.Common.Helper/"]
+COPY ["src/DataAccess/United.Mobile.DataAccess.DynamoDB/United.Mobile.DataAccess.DynamoDB.csproj", "src/DataAccess/United.Mobile.DataAccess.DynamoDB/"]
+COPY ["src/DataAccess/United.Mobile.DataAccess.MPSignIn/United.Mobile.DataAccess.MPSignIn.csproj", "src/DataAccess/United.Mobile.DataAccess.MPSignIn/"]
+COPY ["src/DataAccess/United.Mobile.DataAccess.OnPremiseSQLSP/United.Mobile.DataAccess.OnPremiseSQLSP.csproj", "src/DataAccess/United.Mobile.DataAccess.OnPremiseSQLSP/"]
+COPY ["src/DataAccess/United.Mobile.DataAccess.Profile/United.Mobile.DataAccess.Profile.csproj", "src/DataAccess/United.Mobile.DataAccess.Profile/"]
+COPY ["src/DataAccess/United.Mobile.DataAccess.MerchandizeService/United.Mobile.DataAccess.MerchandizeService.csproj", "src/DataAccess/United.Mobile.DataAccess.MerchandizeService/"]
+
+ARG NUGET_PASSWORD
+ARG NUGET_USERNAME
+
+
+RUN dotnet nuget add source https://artifactorycloud.ual.com/artifactory/api/nuget/v3/v-nuget \
+            -n artifactory \
+            -u ${NUGET_USERNAME}  \
+            -p ${NUGET_PASSWORD} \
+            --store-password-in-clear-text
+
+COPY . .
+WORKDIR "/src/Services/MPAccountProfile/United.Mobile.MPAccountProfile.Api"
+
+FROM build AS publish
+ARG VERSION
+RUN dotnet publish "United.Mobile.MPAccountProfile.Api.csproj" -c Debug -r linux-x64
+RUN mkdir VC/
+RUN cp -f -r bin/Debug/netcoreapp3.1/linux-x64/* VC
+RUN pwsh -Command Invoke-Command -ScriptBlock "{Compress-Archive -Path "VC/*" -DestinationPath "VC/${VERSION}.zip"}"
+
+FROM artifactorycloud.ual.com/v-docker/btw/harness/images/veracode-powershell-java-alpine:latest AS release
+ARG VERSION
+ARG VERACODE_ID
+ARG VERACODE_KEY
+ARG APPNAME
+ARG PURPOSE
+COPY --from=publish /src/Services/MPAccountProfile/United.Mobile.MPAccountProfile.Api/VC/${VERSION}.zip . 
+COPY --from=build /devops-utilities/veracode-execute.ps1 .  
+RUN /opt/microsoft/powershell/7/pwsh ./veracode-execute.ps1 ${VERACODE_ID} ${VERACODE_KEY} ${APPNAME} ${VERSION} ${VERSION}.zip ${PURPOSE}

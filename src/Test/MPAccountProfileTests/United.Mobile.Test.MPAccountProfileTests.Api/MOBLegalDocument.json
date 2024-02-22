@@ -1,0 +1,167 @@
+[
+  {
+    "Title": "CallingCardReservationAssistanceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingCardReservationAssistanceCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingCardBaggageServiceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingCardBaggageServiceCell",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingFlightArrivalDepartureText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingAutoMatedInformationText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingFlightArrivalDepartureCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingPremier1KCustomerCareText",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingFlightArrivalDepartureEmail",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingPremier1kAsissistanceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingPremier1kAsissistanceDescription",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingPremier1kAsissistanceCell",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingMilagePlusAssistanceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingMilagePlusAssistanceCell",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "DefaultEmailAddressContactType",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "InternaitonPhoneContactType",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingPremierPriorityAssistanceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingPremierPriorityAssistanceDescription",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingPremierPriorityAssistanceCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingMilagePlusAssistanceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingMilagePlusAssistanceForSilverGoldPlatinumCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "InternaitonPhoneContactType",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingCharimanCircleText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingCharimanCircleDescription",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingCharimanCircleCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingMilagePlusAssistanceText",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingCharimanCircleCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "DefaultEmailAddressContactType",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingFlightGlobalServicesText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingFlightGlobalServicesEmail",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "InternaitonPhoneContactType",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingTravelreservationText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingTravelreservationDescription",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingTravelreservationCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingMilagePlusAssistanceText",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "CallingAutoMatedInformationText",
+    "LegalDocument": ""
+  },
+
+  {
+    "Title": "CallingMilagePlusGeneralAssistanceCell",
+    "LegalDocument": ""
+  },
+  {
+    "Title": "InternaitonPhoneContactType",
+    "LegalDocument": ""
+  }
+]

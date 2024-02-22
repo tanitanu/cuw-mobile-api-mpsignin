@@ -1,0 +1,150 @@
+{
+  "sessionID": "D48E0EA5643F43F1BA60FEAA372D0713",
+  "mileagePlusNumber": "UB207663",
+  "customerID": 123072481,
+  "hashValue": "D3507C2A4426B52CEAB89AF66CB5853EEC4C9C95",
+  "securityUpdate": false,
+  "tFAMPDeviceSecurityPath": "None",
+  "request": null,
+  "securityQuestions": null,
+  "tFAMPDeviceMessages": null,
+  "tFAMPDeviceCompleteMessage": null,
+  "rememberMEFlags": {
+    "rememberMEButtonMessages": [
+      {
+        "id": "ButtonTitle",
+        "currentValue": "Remember me on this device",
+        "saveToPersist": true
+      },
+      {
+        "id": "ButtonTagLine",
+        "currentValue": "You won't have to answer security questions again.",
+        "saveToPersist": true
+      }
+    ],
+    "showRememberMeDeviceButton": true,
+    "rememberMeDeviceSwitchON": true
+  },
+  "showContinueAsGuestButton": false,
+  "opAccountSummary": {
+    "mileagePlusNumber": "UB207663",
+    "customerId": 123072481,
+    "name": {
+      "title": "MR",
+      "first": "Shawngm",
+      "middle": "",
+      "last": "Test",
+      "suffix": "",
+      "dateOfBirth": ""
+    },
+    "balance": "2164460",
+    "balanceExpireDate": "",
+    "balanceExpireDisclaimer": "Great travel memories never expire, and now, miles don’t either. We’re excited to share that there’s no expiration date on the miles you’ve earned with us.",
+    "noMileageExpiration": "False",
+    "noMileageExpirationMessage": "Great travel memories never expire, and now, miles don’t either. We’re excited to share that there’s no expiration date on the miles you’ve earned with us.",
+    "eliteStatus": {
+      "code": "0",
+      "description": "Member",
+      "starEliteDescription": "No Status",
+      "esda": "Member",
+      "level": 0
+    },
+    "enrollDate": "11/26/2014",
+    "lastFlightDate": "01/01/0001",
+    "lastActivityDate": "09/19/2022",
+    "eliteMileage": "400",
+    "eliteSegment": "United.Definition.CSLModels.CustomerProfile.PremierQualifyingMetricsItem",
+    "lastExpiredMileDate": "",
+    "lastExpiredMile": 0,
+    "hasUAClubMemberShip": true,
+    "uAClubMemberShipDetails": {
+      "memberTypeCode": "A",
+      "memberTypeDesc": "United Club membership",
+      "effectiveDate": "08/24/2022",
+      "discontinueDate": "08/31/2023",
+      "companionMileagePlus": "",
+      "primaryOrCompanion": ""
+    },
+    "isMPAccountTSAFlagON": false,
+    "tsaMessage": "",
+    "fourSegmentMinimun": "0 of 4",
+    "premierQualifyingDollars": "",
+    "pDQchasewavier": "",
+    "pDQchasewaiverLabel": "",
+    "millionMilerIndicator": "",
+    "membershipCardBarCode": "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",
+    "membershipCardBarCodeString": "FFPC001UAUB207663        TEST                SHAWNGM                      P31082023^001",
+    "isCEO": false,
+    "hashValue": "D3507C2A4426B52CEAB89AF66CB5853EEC4C9C95",
+    "membershipCardExpirationDate": "",
+    "showChaseBonusTile": true,
+    "lifetimeMiles": 0,
+    "premierActivity": null,
+    "yearEndPremierActivity": null,
+    "premierActivityType": 0,
+    "premierTrackerLearnAboutHeader": null,
+    "premierTrackerLearnAboutText": null,
+    "premierTrackerLearnAboutTitle": null,
+    "errorPremierActivity": null,
+    "premierStatusTrackerText": null,
+    "premierStatusTrackerLink": null,
+    "isHideMileageBalanceExpireDate": true,
+    "isIncrementalUpgrade": false,
+    "plusPoints": null,
+    "milesNeverExpireText": "",
+    "learnMoreTitle": "",
+    "learnMoreHeader": "",
+    "birthDate": "8/31/1988 12:00:00 AM",
+    "vBQPremierActivity": null,
+    "vBQWelcomeModel": null,
+    "yearEndVBQPremierActivity": null,
+    "chasePromoType": "50K",
+    "statusLiftBanner": {
+      "ImageSrcURL": null,
+      "PremierStatusURL": null
+    },
+    "travelCreditInfo": null
+  },
+  "corporateEligibleTravelType": {
+    "corporateTravelTypes": [
+      {
+        "travelType": "RA",
+        "travelTypeDescription": "Regular or award travel"
+      },
+      {
+        "travelType": "CB",
+        "travelTypeDescription": "UA Concur Test Co business travel"
+      },
+      {
+        "travelType": "CLB",
+        "travelTypeDescription": "Break from Business discount"
+      }
+    ],
+    "corporateCustomer": true,
+    "corporateCustomerBEAllowed": false,
+    "corporateDetails": {
+      "discountCode": "SAP20",
+      "leisureDiscountCode": "CL1COM",
+      "corporateCompanyName": "UA Concur Test Co",
+      "corporateTravelProvider": "Concur",
+      "fareGroupId": "XBE",
+      "corporateBookingType": null,
+      "noOfTravelers": 0
+    }
+  },
+  "customerMetrics": {
+    "ptcCode": "PPR"
+  },
+  "EmployeeId": "001209",
+  "EmpTravelTypeResponse": null,
+  "uaSubscriptions": null,
+  "isUASubscriptionsAvailable": false,
+  "youngAdultTravelType": null,
+  "transactionId": "EE64E779-7B46-4836-B261-62AE35498B44",
+  "languageCode": "en-US",
+  "machineName": "03",
+  "callDuration": 0,
+  "exception": null,
+  "MileagPlusNumber": null,
+  "tempQuestionsFromPersist": null
+}

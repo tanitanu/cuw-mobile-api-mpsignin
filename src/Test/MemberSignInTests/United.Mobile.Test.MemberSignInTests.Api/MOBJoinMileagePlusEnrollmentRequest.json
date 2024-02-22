@@ -1,0 +1,27 @@
+[
+  {
+    "AccessCode": "UAWS-MOBILE-ACCESSCODE",
+    "SessionId": "9D4BA31963DD4DD4BC0C0E984C4BB6D6",
+    "Application": {
+      "Id": "1",
+      "Version": {
+        "Major": "4.1.12",
+        "Minor": "4.1.12"
+      }
+    },
+    "ConsentToReceiveMarketingEmails": true,
+    "sharesPosition": "5"
+  },
+  {
+    "AccessCode": "UAWS-MOBILE-ACCESSCODE",
+    "SessionId": null,
+    "Application": {
+      "Id": "1",
+      "Version": {
+        "Major": "4.1.12",
+        "Minor": "4.1.12"
+      }
+    },
+    "sharesPosition": "5"
+  }
+]

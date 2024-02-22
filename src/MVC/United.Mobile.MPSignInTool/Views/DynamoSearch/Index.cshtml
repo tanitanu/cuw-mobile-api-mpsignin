@@ -1,0 +1,114 @@
+﻿@model ForceSignOutModel
+@{
+    ViewData["Title"] = "ForceSignOut";
+}
+
+@if (TempData["SuccessMsg"] != null)
+{
+    <div class="alert alert-primary" role="alert">
+        @TempData["SuccessMsg"]
+    </div>
+}
+@if (TempData["FailedMsg"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["FailedMsg"]
+    </div>
+}
+
+<form method="post">
+
+    <div class="row">
+        <div class="col-8">
+            <h3>Force SignOut</h3>
+        </div>
+    </div>
+
+    <div class="row pt-2">
+        <div class="col-10">
+            <div class="row">
+                <div class="col-sm">
+                    <h4>MP Number</h4>
+                </div>
+
+                <div class="col-sm">
+                    <div class="form-group">
+                        <input asp-for="MileagePlusNumber" type="text" class="form-control" id="inputMPNumber" placeholder="Enter MPNumber">
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+
+                <div class="col-sm">
+                    <div class="select">
+                        <select class="form-select" asp-for="Environment" asp-items="@Model.Environments">
+                            <option>Please select one</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="col-sm">
+                <button type="submit" asp-action="ForceSignOut" asp-controller="DynamoSearch" class="btn btn-danger" disabled="@((Model.Records == null) || (Model.Records.Count<1) ? "disabled" : null)">
+                    ForceSignOut
+                </button>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+@if (Model.Records != null)
+{
+    <div class="alert alert-primary" role="alert">
+        @(
+            (Model?.Records?.Count > 0) ? $"Count = {Model?.Records?.Count.ToString()}" : "No Record Found"
+            )
+    </div>
+}
+
+<table class="table table-bordered table-sm">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">PK</th>
+            <th scope="col">MileagePlusNumber</th>
+            <th scope="col">CustomerID</th>
+            <th scope="col">ApplicationID</th>
+            <th scope="col">AppVersion</th>
+            <th scope="col">DeviceID</th>
+            <th scope="col">IsTouchIDSignIn</th>
+            <th scope="col">UpdateDateTime</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (Model.Records != null)
+            @foreach (var (data, i) in Model.Records.Select((value, i) => (value, i)))
+            {
+                <tr>
+                    <th scope="row">@(i + 1)</th>
+                    <td>@data.IndexKey</td>
+                    <td>@data.Data.MileagePlusNumber</td>
+                    <td>@data.Data.CustomerID</td>
+                    <td>@data.Data.ApplicationID</td>
+                    <td>@data.Data.AppVersion</td>
+                    <td>@data.Data.DeviceID</td>
+                    <td>@data.Data.IsTouchIDSignIn</td>
+                    <td>@data.Data.UpdateDateTime</td>
+                </tr>
+            }
+
+    </tbody>
+</table>
+
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>

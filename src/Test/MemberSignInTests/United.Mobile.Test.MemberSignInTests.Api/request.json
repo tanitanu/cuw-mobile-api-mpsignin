@@ -1,0 +1,27 @@
+{
+  "AccessCode": "ACCESSCODE",
+  "TransactionId": "A0F5635724CB49649AFAA7A7233C2468",
+  "LanguageCode": "en-US",
+  "Application": {
+    "Id": "1",
+    "Name": "iOS",
+    "Version": {
+      "DisplayText": "",
+      "Major": "4.1.30",
+      "Minor": "4.1.30",
+      "Build": ""
+    },
+    "IsProduction": "false"
+  },
+  "DeviceId": "C77D4E56-77C3-4E3D-9BD3-94CD25C1F598",
+  "SessionId": "A0F5635724CB49649AFAA7A7233C2468",
+  "Email": "alex7022@yahoo.com",
+  "ConsentToReceiveMarketingEmails": "false",
+  "SharesPosition": "1.1",
+  "RecordLocator": "DDEW69",
+  "LastName": "RUCOBO",
+  "Flow": "VIEWRES",
+  "IsGetPNRByRecordLocatorCall": "true",
+  "IsGetPNRByRecordLocator": "false",
+  "TravelerName": "Alejandrad Rucobo"
+}

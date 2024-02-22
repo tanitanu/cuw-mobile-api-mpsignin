@@ -1,0 +1,14 @@
+[
+  {
+    "mileagePlusNumber": "AW719636",
+    "customerId": 1,
+    "validPinCode": true,
+    "closedAccount": false
+  },
+  {
+    "mileagePlusNumber": "AW719636",
+    "customerId": 1,
+    "validPinCode": true,
+    "closedAccount": true
+  }
+]

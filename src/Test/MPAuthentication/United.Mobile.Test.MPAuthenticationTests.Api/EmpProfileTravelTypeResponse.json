@@ -1,0 +1,23 @@
+{
+  "Data": {
+    "employeeJAResponse": {
+      "IsAllowedToSelectFlight": true,
+      "EmployeeJA": {
+        "EmployeeID": "12ab",
+        "Level1": "one"
+      }
+    },
+    "travelTypeResponse": {
+      "eResTransactionId": "qwed12",
+      "sessionID": "BD6CE5D9E05C41DE9A7ED828DE17B457",
+      "isPayrollDeduct": true
+    }
+  },
+  "mobEmpJAResponse": {
+    "allowImpersonation": true
+  },
+  "mobEmpTravelTypeResponse": {
+    "eResTransactionId": "qwed12",
+    "sessionID": "BD6CE5D9E05C41DE9A7ED828DE17B457"
+  }
+}

@@ -1,0 +1,68 @@
+﻿@model IList<United.Mobile.MPSignInTool.Domain.ServiceDetails>
+
+<!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
+<style type="text/css">
+    .myOtherTable {
+        background-color: #FFFFE0;
+        border-collapse: collapse;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .myOtherTable th {
+        background-color: #BDB76B;
+        color: white;
+        width: 50%;
+    }
+
+    .myOtherTable td, .myOtherTable th {
+        padding: 5px;
+        border: 0;
+    }
+
+    .myOtherTable td {
+        border-bottom: 1px dotted #BDB76B;
+    }
+</style>
+<!-- End Styles -->
+
+<div class="row">
+    <div class="col-sm">
+        <h4>@Model[0]?.Environment</h4>
+    </div>
+
+</div>
+
+<div id="divTable">
+    <table class="myOtherTable">
+        <thead>
+            <tr>
+                <th>Service Name</th>
+                <th>Environment</th>
+                <th>HealthCheck</th>
+                <th>Version</th>
+                <th>CatalogID (iOS)</th>
+                <th>CatalogID (Android)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item?.ServiceName</td>
+                    <td>@(string.IsNullOrEmpty(item?.Environment) ? "NA" : item?.Environment)</td>
+                    <td style="@((item?.HealthCheck == "Healthy") ? "background-color: MediumSeaGreen" : "background-color: Tomato")">@(string.IsNullOrEmpty(item?.HealthCheck) ? "NA" : item?.HealthCheck)</td>
+                    <td>@item?.Version</td>
+                    <td style="@((item?.IsCatalogEnablediOS == "0") ? "font-color: MediumSeaGreen" : "")">@(item?.IsCatalogEnablediOS == "1" ? "ON" : (item.IsCatalogEnablediOS == "0" ? "OFF" : "NA"))</td>
+                    <td style="@((item?.IsCatalogEnabledAndroid == "0") ? "font-color: MediumSeaGreen" : "")">@(item?.IsCatalogEnabledAndroid == "1" ? "ON" : (item.IsCatalogEnabledAndroid == "0" ? "OFF" : "NA"))</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+

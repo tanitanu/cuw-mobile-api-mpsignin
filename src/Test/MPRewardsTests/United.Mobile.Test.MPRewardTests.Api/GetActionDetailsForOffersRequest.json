@@ -1,0 +1,19 @@
+[
+  {
+    "mileagePlusNumber": "AW719644",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 2,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.33",
+        "minor": "4.1.33"
+      }
+    },
+    "Data": "{\"RecordLocator\":\"CD9XQ3\",\"LastName\":\"JESTE\",\"Origin\":\"ORD\",\"Destination\":\"LAX\",\"DepartDateTimeUtc\":\"11/04/2021 03:40 PM\",\"FlightNumber\":\"490\",\"Carrier\":\"UA\",\"View\":\"ViewResSeatMap\",\"FocusRequestData\":{\"LastName\":\"JESTE\",\"FirstName\":\"first\",\"MiddleName\":\"SAM\",\"SeatNumber\":\"1A\",\"LastNameIndex\":1,\"FistNameIndex\":2}}",
+    "deviceId": "2c99d825-1a25-4717-b607-3c94e57d8968",
+    "languageCode": "en-US",
+    "transactionId": "2c99d825-1a25-4717-b607-3c94e57d8968|6479fdce-1954-44ce-b7c7-f094f619f371"
+  }
+]

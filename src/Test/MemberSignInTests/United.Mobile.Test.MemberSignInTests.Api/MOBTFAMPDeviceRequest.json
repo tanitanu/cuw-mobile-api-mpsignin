@@ -1,0 +1,83 @@
+[
+  {
+    "customerID": 0,
+    "mileagePlusNumber": "CF586551",
+    "rememberDevice": false,
+    "sessionID": "82A74B05A2044BBE8F581860DB80E3D9",
+    "tFAMPDeviceSecurityPath": "TFAAccountLocked",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 2,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.33",
+        "minor": "4.1.33"
+      }
+    },
+    "deviceId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0",
+    "languageCode": "en-US",
+    "transactionId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0|2301ab89-14b3-4801-b23a-d358511a4b7f"
+  },
+  {
+    "customerID": 0,
+    "mileagePlusNumber": "CF586551",
+    "rememberDevice": false,
+    "sessionID": "82A74B05A2044BBE8F581860DB80E3D9",
+    "tFAMPDeviceSecurityPath": "TFAAccountLocked",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 2,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.33",
+        "minor": "4.1.33"
+      }
+    },
+    "deviceId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0",
+    "languageCode": "en-US",
+    "transactionId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0|2301ab89-14b3-4801-b23a-d358511a4b7f"
+  },
+  {
+    "customerID": 0,
+    "mileagePlusNumber": "CF586551",
+    "rememberDevice": false,
+    "sessionID": null,
+    "tFAMPDeviceSecurityPath": "TFAAccountLocked",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 2,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.33",
+        "minor": "4.1.33"
+      }
+    },
+    "deviceId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0",
+    "languageCode": "en-US",
+    "transactionId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0|2301ab89-14b3-4801-b23a-d358511a4b7f"
+  },
+  {
+    "customerID": 0,
+    "mileagePlusNumber": "CF586551",
+    "rememberDevice": false,
+    "sessionID": "82A74B05A2044BBE8F581860DB80E3D9",
+    "tFAMPDeviceSecurityPath": "TFAAccountLocked",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 0,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.33",
+        "minor": "4.1.33"
+      }
+    },
+    "deviceId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0",
+    "languageCode": "en-US",
+    "transactionId": "87d502f9-5b0b-4ed1-9533-a17b392ea3e0|2301ab89-14b3-4801-b23a-d358511a4b7f"
+  }
+
+]

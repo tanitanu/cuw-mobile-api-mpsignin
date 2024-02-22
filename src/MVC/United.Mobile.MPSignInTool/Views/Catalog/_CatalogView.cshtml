@@ -1,0 +1,100 @@
+﻿@using United.Mobile.MPSignInTool.Domain.Models.Catalog;
+@model ServiceCatalogInfo
+
+<!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
+<style type="text/css">
+    .myOtherTable {
+        background-color: #FFFFE0;
+        border-collapse: collapse;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .myOtherTable th {
+        background-color: #BDB76B;
+        color: white;
+        width: 50%;
+    }
+
+    .myOtherTable td, .myOtherTable th {
+        padding: 5px;
+        border: 0;
+    }
+
+    .myOtherTable td {
+        border-bottom: 1px dotted #BDB76B;
+    }
+    .table-wrapper {
+        display: flex;
+    }    
+
+    thead tr th, td {
+        border: 1px solid black;
+        text-align: center;
+        width: 1%;
+    }
+
+    .td-parent {
+        font-weight: bold;
+    }
+</style>
+<!-- End Styles -->
+
+<div class="container">
+    <table class="table table-bordered ">
+        <thead>
+            <tr>
+                <th colspan="12" style="background-color: #add8e6">@Model?.Env</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td-parent" colspan="12" style="background-color: MediumSeaGreen">Android</td>
+                
+            </tr>
+            <tr>
+                <td class="td-parent" colspan="2">Service Name</td>
+                <td class="td-parent" colspan="2">CatalogID</td>
+                <td class="td-parent" colspan="2">Status</td>
+                <td class="td-parent" colspan="2">CatalogID</td>
+                <td class="td-parent" colspan="4">URL</td>
+                
+            </tr>
+
+            @if(Model?.AndroidData != null)
+            @foreach (var android in Model?.AndroidData)
+            {
+                <tr>
+                    <td class="td-child" colspan="2">@android?.ServiceName</td>
+                    <td class="td-child" colspan="2">@(string.IsNullOrEmpty(android?.CatalogID) ? "NA" : android?.CatalogID)</td>
+                    <td class="td-child" colspan="2">@((string.IsNullOrEmpty(android?.Status)) ? "NA" : android?.Status == "1" ? "ON" : (android.Status == "0" ? "OFF" : "NA"))</td>
+                    <td class="td-child" colspan="2">@(string.IsNullOrEmpty(android?.CatalogID) ? "NA" : android?.CatalogURLID)</td>
+                    <td class="td-child" colspan="4">@(string.IsNullOrEmpty(android?.URL) ? "NA" : android?.URL) </td>
+                    
+                </tr>
+            }
+            <tr>
+                <td class="td-parent" colspan="12" style="background-color: MediumSeaGreen">IOS</td>
+            </tr>
+            <tr>
+                <td class="td-parent" colspan="2">Service Name</td>
+                <td class="td-parent" colspan="2">CatalogID</td>
+                <td class="td-parent" colspan="2">Status</td>
+                <td class="td-parent" colspan="2">CatalogID</td>
+                <td class="td-parent" colspan="4">URL</td>
+            </tr>
+
+            @if(Model?.IosData != null)
+            @foreach (var ios in Model?.IosData)
+            {
+                <tr>
+                    <td class="td-child" colspan="2">@ios?.ServiceName</td>
+                    <td class="td-child" colspan="2">@(string.IsNullOrEmpty(ios?.CatalogID) ? "NA" : ios?.CatalogID)</td>
+                    <td class="td-child" colspan="2">@((string.IsNullOrEmpty(ios?.Status)) ? "NA" : ios?.Status == "1" ? "ON" : (ios.Status == "0" ? "OFF" : ""))</td>
+                    <td class="td-child" colspan="2">@(string.IsNullOrEmpty(ios?.CatalogID) ? "NA" : ios?.CatalogURLID)</td>
+                    <td class="td-child" colspan="4">@(string.IsNullOrEmpty(ios?.URL) ? "NA" : ios?.URL) </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

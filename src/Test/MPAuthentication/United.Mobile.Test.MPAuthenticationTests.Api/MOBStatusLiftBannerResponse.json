@@ -1,0 +1,21 @@
+{
+  "mpId": "AW719636",
+  "altRefId1": "alt12",
+  "altRefId2": "alt34",
+  "promotionId": "2",
+  //"promotion": "",
+  "displayName": "Code",
+  "expirationDate":"12/09/2024",
+  "emailId": "xyz@gmail.com",
+  "isRegistered": true,
+  //"registrationTimestamp": "",
+  "isRegisteredInIms": true,
+  //"imsRegistrationTimestamp": "",
+  //"insertTimestamp": "19/05/2000",
+  "insertId": "2",
+  //"updateTimestamp": "",
+  "updateId": "1",
+  "state": "NY",
+  "imsPromotionId": "2",
+  "channelRegistrationId": "34"
+}

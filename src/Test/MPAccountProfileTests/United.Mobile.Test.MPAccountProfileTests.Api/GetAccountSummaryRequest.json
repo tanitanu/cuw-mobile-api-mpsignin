@@ -1,0 +1,39 @@
+[
+  {
+    "hashValue": "39EC7BAF05C062097F28E103CCD002C18510AC4A",
+    "mileagePlusNumber": "AW714108",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 2,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.32",
+        "minor": "4.1.32"
+      }
+    },
+    "deviceId": "4ee38c95-6ca4-43d0-a7bc-877b28d2f1d6",
+    "languageCode": "en-US",
+    "transactionId": "4ee38c95-6ca4-43d0-a7bc-877b28d2f1d6|496ea4fd-7e43-49a3-956a-da3e75a09534"
+  },
+  {
+    "hashValue": "39EC7BAF05C062097F28E103CCD002C18510AC4A",
+    "mileagePlusNumber": "AW714108",
+    "accessCode": "ACCESSCODE",
+    "application": {
+      "id": 2,
+      "isProduction": false,
+      "name": "Android",
+      "version": {
+        "major": "4.1.32",
+        "minor": "4.1.32"
+      }
+    },
+    "deviceId": "4ee38c95-6ca4-43d0-a7bc-877b28d2f1d6",
+    "languageCode": "en-US",
+    "transactionId": "4ee38c95-6ca4-43d0-a7bc-877b28d2f1d6|496ea4fd-7e43-49a3-956a-da3e75a09534",
+    "SessionId": "D58E298C35274F6F873A133386A42916"
+    
+  }
+
+]

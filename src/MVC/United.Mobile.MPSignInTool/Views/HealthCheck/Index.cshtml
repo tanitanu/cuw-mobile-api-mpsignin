@@ -1,0 +1,30 @@
+﻿@model United.Mobile.MPSignInTool.Domain.HealthCheckReport
+@{
+    ViewData["Title"] = "Health Check";
+}
+
+<div>
+    <div class="row">
+        <div class="col">
+            <Partial name="_HealthCheckView.cshtml" model=Model.DevReport>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <Partial name="_HealthCheckView.cshtml" model=Model.QAReport>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <Partial name="_HealthCheckView.cshtml" model=Model.StageReport>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <Partial name="_HealthCheckView.cshtml" model=Model.ProdReport>
+        </div>
+    </div>
+</div>
+
+
+

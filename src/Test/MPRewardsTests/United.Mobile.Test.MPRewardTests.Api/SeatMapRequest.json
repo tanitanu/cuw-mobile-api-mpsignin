@@ -1,0 +1,14 @@
+{
+  "mileagePlusNumber": "AW719636",
+  "sessionId": "E0CE9B92410C4B809D1B7EFCB36A9910",
+  "Exception": {
+    "code": "",
+    "message": "Please enter a valid U.S. ZIP code (ZIP or ZIP plus 4).",
+    "errMessage": ""
+  },
+  "SeatMap": [
+    {
+      "flightDateTime": "11/04/2021 10:40 AM"
+    }
+  ]
+}
